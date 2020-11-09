@@ -1,0 +1,1 @@
+swig -I/usr/local/include/ -v -go -cgo -c++ -intgosize 64 kompute.i 
