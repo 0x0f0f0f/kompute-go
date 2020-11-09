@@ -249,6 +249,9 @@ static void* Swig_malloc(int c) {
 #include <vector>
 #include <stdexcept>
 
+
+#include <stdint.h>		// Use the C99 official header
+
 SWIGINTERN std::vector< float >::const_reference std_vector_Sl_float_Sg__get(std::vector< float > *self,int i){
                 int size = int(self->size());
                 if (i>=0 && i<size)
@@ -281,7 +284,7 @@ SWIGINTERN void std_vector_Sl_char_Sg__set(std::vector< char > *self,int i,std::
 extern "C" {
 #endif
 
-void _wrap_Swig_free_kompute_209ca5717ea3ce19(void *_swig_go_0) {
+void _wrap_Swig_free_kompute_c87b3565665a14c1(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -291,7 +294,7 @@ void _wrap_Swig_free_kompute_209ca5717ea3ce19(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_kompute_209ca5717ea3ce19(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_kompute_c87b3565665a14c1(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -304,7 +307,7 @@ void *_wrap_Swig_malloc_kompute_209ca5717ea3ce19(intgo _swig_go_0) {
 }
 
 
-std::vector< float > *_wrap_new_FloatVector__SWIG_0_kompute_209ca5717ea3ce19() {
+std::vector< float > *_wrap_new_FloatVector__SWIG_0_kompute_c87b3565665a14c1() {
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
   
@@ -315,7 +318,7 @@ std::vector< float > *_wrap_new_FloatVector__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-std::vector< float > *_wrap_new_FloatVector__SWIG_1_kompute_209ca5717ea3ce19(long long _swig_go_0) {
+std::vector< float > *_wrap_new_FloatVector__SWIG_1_kompute_c87b3565665a14c1(long long _swig_go_0) {
   std::vector< float >::size_type arg1 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -328,7 +331,7 @@ std::vector< float > *_wrap_new_FloatVector__SWIG_1_kompute_209ca5717ea3ce19(lon
 }
 
 
-std::vector< float > *_wrap_new_FloatVector__SWIG_2_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+std::vector< float > *_wrap_new_FloatVector__SWIG_2_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = 0 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -341,7 +344,7 @@ std::vector< float > *_wrap_new_FloatVector__SWIG_2_kompute_209ca5717ea3ce19(std
 }
 
 
-long long _wrap_FloatVector_size_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+long long _wrap_FloatVector_size_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type result;
   long long _swig_go_result;
@@ -354,7 +357,7 @@ long long _wrap_FloatVector_size_kompute_209ca5717ea3ce19(std::vector< float > *
 }
 
 
-long long _wrap_FloatVector_capacity_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+long long _wrap_FloatVector_capacity_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type result;
   long long _swig_go_result;
@@ -367,7 +370,7 @@ long long _wrap_FloatVector_capacity_kompute_209ca5717ea3ce19(std::vector< float
 }
 
 
-void _wrap_FloatVector_reserve_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0, long long _swig_go_1) {
+void _wrap_FloatVector_reserve_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0, long long _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::size_type arg2 ;
   
@@ -379,7 +382,7 @@ void _wrap_FloatVector_reserve_kompute_209ca5717ea3ce19(std::vector< float > *_s
 }
 
 
-bool _wrap_FloatVector_isEmpty_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+bool _wrap_FloatVector_isEmpty_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -392,7 +395,7 @@ bool _wrap_FloatVector_isEmpty_kompute_209ca5717ea3ce19(std::vector< float > *_s
 }
 
 
-void _wrap_FloatVector_clear_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+void _wrap_FloatVector_clear_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   
   arg1 = *(std::vector< float > **)&_swig_go_0; 
@@ -402,7 +405,7 @@ void _wrap_FloatVector_clear_kompute_209ca5717ea3ce19(std::vector< float > *_swi
 }
 
 
-void _wrap_FloatVector_add_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0, float _swig_go_1) {
+void _wrap_FloatVector_add_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0, float _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   std::vector< float >::value_type *arg2 = 0 ;
   
@@ -414,7 +417,7 @@ void _wrap_FloatVector_add_kompute_209ca5717ea3ce19(std::vector< float > *_swig_
 }
 
 
-float _wrap_FloatVector_get_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
+float _wrap_FloatVector_get_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   int arg2 ;
   std::vector< float >::value_type *result = 0 ;
@@ -435,7 +438,7 @@ float _wrap_FloatVector_get_kompute_209ca5717ea3ce19(std::vector< float > *_swig
 }
 
 
-void _wrap_FloatVector_set_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
+void _wrap_FloatVector_set_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0, intgo _swig_go_1, float _swig_go_2) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   int arg2 ;
   std::vector< float >::value_type *arg3 = 0 ;
@@ -455,7 +458,7 @@ void _wrap_FloatVector_set_kompute_209ca5717ea3ce19(std::vector< float > *_swig_
 }
 
 
-void _wrap_delete_FloatVector_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+void _wrap_delete_FloatVector_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = (std::vector< float > *) 0 ;
   
   arg1 = *(std::vector< float > **)&_swig_go_0; 
@@ -465,7 +468,7 @@ void _wrap_delete_FloatVector_kompute_209ca5717ea3ce19(std::vector< float > *_sw
 }
 
 
-std::vector< char > *_wrap_new_ByteVector__SWIG_0_kompute_209ca5717ea3ce19() {
+std::vector< char > *_wrap_new_ByteVector__SWIG_0_kompute_c87b3565665a14c1() {
   std::vector< char > *result = 0 ;
   std::vector< char > *_swig_go_result;
   
@@ -476,7 +479,7 @@ std::vector< char > *_wrap_new_ByteVector__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-std::vector< char > *_wrap_new_ByteVector__SWIG_1_kompute_209ca5717ea3ce19(long long _swig_go_0) {
+std::vector< char > *_wrap_new_ByteVector__SWIG_1_kompute_c87b3565665a14c1(long long _swig_go_0) {
   std::vector< char >::size_type arg1 ;
   std::vector< char > *result = 0 ;
   std::vector< char > *_swig_go_result;
@@ -489,7 +492,7 @@ std::vector< char > *_wrap_new_ByteVector__SWIG_1_kompute_209ca5717ea3ce19(long 
 }
 
 
-std::vector< char > *_wrap_new_ByteVector__SWIG_2_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+std::vector< char > *_wrap_new_ByteVector__SWIG_2_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = 0 ;
   std::vector< char > *result = 0 ;
   std::vector< char > *_swig_go_result;
@@ -502,7 +505,7 @@ std::vector< char > *_wrap_new_ByteVector__SWIG_2_kompute_209ca5717ea3ce19(std::
 }
 
 
-long long _wrap_ByteVector_size_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+long long _wrap_ByteVector_size_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   std::vector< char >::size_type result;
   long long _swig_go_result;
@@ -515,7 +518,7 @@ long long _wrap_ByteVector_size_kompute_209ca5717ea3ce19(std::vector< char > *_s
 }
 
 
-long long _wrap_ByteVector_capacity_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+long long _wrap_ByteVector_capacity_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   std::vector< char >::size_type result;
   long long _swig_go_result;
@@ -528,7 +531,7 @@ long long _wrap_ByteVector_capacity_kompute_209ca5717ea3ce19(std::vector< char >
 }
 
 
-void _wrap_ByteVector_reserve_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0, long long _swig_go_1) {
+void _wrap_ByteVector_reserve_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0, long long _swig_go_1) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   std::vector< char >::size_type arg2 ;
   
@@ -540,7 +543,7 @@ void _wrap_ByteVector_reserve_kompute_209ca5717ea3ce19(std::vector< char > *_swi
 }
 
 
-bool _wrap_ByteVector_isEmpty_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+bool _wrap_ByteVector_isEmpty_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -553,7 +556,7 @@ bool _wrap_ByteVector_isEmpty_kompute_209ca5717ea3ce19(std::vector< char > *_swi
 }
 
 
-void _wrap_ByteVector_clear_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+void _wrap_ByteVector_clear_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   
   arg1 = *(std::vector< char > **)&_swig_go_0; 
@@ -563,7 +566,7 @@ void _wrap_ByteVector_clear_kompute_209ca5717ea3ce19(std::vector< char > *_swig_
 }
 
 
-void _wrap_ByteVector_add_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0, char _swig_go_1) {
+void _wrap_ByteVector_add_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0, char _swig_go_1) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   std::vector< char >::value_type *arg2 = 0 ;
   
@@ -575,7 +578,7 @@ void _wrap_ByteVector_add_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go
 }
 
 
-char _wrap_ByteVector_get_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0, intgo _swig_go_1) {
+char _wrap_ByteVector_get_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0, intgo _swig_go_1) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   int arg2 ;
   std::vector< char >::value_type *result = 0 ;
@@ -596,7 +599,7 @@ char _wrap_ByteVector_get_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go
 }
 
 
-void _wrap_ByteVector_set_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0, intgo _swig_go_1, char _swig_go_2) {
+void _wrap_ByteVector_set_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0, intgo _swig_go_1, char _swig_go_2) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   int arg2 ;
   std::vector< char >::value_type *arg3 = 0 ;
@@ -616,7 +619,7 @@ void _wrap_ByteVector_set_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go
 }
 
 
-void _wrap_delete_ByteVector_kompute_209ca5717ea3ce19(std::vector< char > *_swig_go_0) {
+void _wrap_delete_ByteVector_kompute_c87b3565665a14c1(std::vector< char > *_swig_go_0) {
   std::vector< char > *arg1 = (std::vector< char > *) 0 ;
   
   arg1 = *(std::vector< char > **)&_swig_go_0; 
@@ -626,7 +629,7 @@ void _wrap_delete_ByteVector_kompute_209ca5717ea3ce19(std::vector< char > *_swig
 }
 
 
-char *_wrap_shaders_glsl_opmult_comp_spv_get_kompute_209ca5717ea3ce19() {
+char *_wrap_shaders_glsl_opmult_comp_spv_get_kompute_c87b3565665a14c1() {
   unsigned char *result = 0 ;
   char *_swig_go_result;
   
@@ -637,7 +640,7 @@ char *_wrap_shaders_glsl_opmult_comp_spv_get_kompute_209ca5717ea3ce19() {
 }
 
 
-intgo _wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_209ca5717ea3ce19() {
+intgo _wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_c87b3565665a14c1() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -648,7 +651,7 @@ intgo _wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_209ca5717ea3ce19() {
 }
 
 
-char *_wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_209ca5717ea3ce19() {
+char *_wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_c87b3565665a14c1() {
   unsigned char *result = 0 ;
   char *_swig_go_result;
   
@@ -659,7 +662,7 @@ char *_wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_209ca5717ea3ce1
 }
 
 
-intgo _wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_209ca5717ea3ce19() {
+intgo _wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_c87b3565665a14c1() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -670,7 +673,7 @@ intgo _wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_209ca5717ea
 }
 
 
-intgo _wrap_TensorTypes_eDevice_Tensor_kompute_209ca5717ea3ce19() {
+intgo _wrap_TensorTypes_eDevice_Tensor_kompute_c87b3565665a14c1() {
   kp::Tensor::TensorTypes result;
   intgo _swig_go_result;
   
@@ -682,7 +685,7 @@ intgo _wrap_TensorTypes_eDevice_Tensor_kompute_209ca5717ea3ce19() {
 }
 
 
-intgo _wrap_TensorTypes_eStaging_Tensor_kompute_209ca5717ea3ce19() {
+intgo _wrap_TensorTypes_eStaging_Tensor_kompute_c87b3565665a14c1() {
   kp::Tensor::TensorTypes result;
   intgo _swig_go_result;
   
@@ -694,7 +697,7 @@ intgo _wrap_TensorTypes_eStaging_Tensor_kompute_209ca5717ea3ce19() {
 }
 
 
-intgo _wrap_TensorTypes_eStorage_Tensor_kompute_209ca5717ea3ce19() {
+intgo _wrap_TensorTypes_eStorage_Tensor_kompute_c87b3565665a14c1() {
   kp::Tensor::TensorTypes result;
   intgo _swig_go_result;
   
@@ -706,7 +709,7 @@ intgo _wrap_TensorTypes_eStorage_Tensor_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::Tensor *_wrap_new_Tensor__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::Tensor *_wrap_new_Tensor__SWIG_0_kompute_c87b3565665a14c1() {
   kp::Tensor *result = 0 ;
   kp::Tensor *_swig_go_result;
   
@@ -717,7 +720,7 @@ kp::Tensor *_wrap_new_Tensor__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::Tensor *_wrap_new_Tensor__SWIG_1_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
+kp::Tensor *_wrap_new_Tensor__SWIG_1_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0, intgo _swig_go_1) {
   std::vector< float > *arg1 = 0 ;
   kp::Tensor::TensorTypes arg2 ;
   kp::Tensor *result = 0 ;
@@ -732,7 +735,7 @@ kp::Tensor *_wrap_new_Tensor__SWIG_1_kompute_209ca5717ea3ce19(std::vector< float
 }
 
 
-kp::Tensor *_wrap_new_Tensor__SWIG_2_kompute_209ca5717ea3ce19(std::vector< float > *_swig_go_0) {
+kp::Tensor *_wrap_new_Tensor__SWIG_2_kompute_c87b3565665a14c1(std::vector< float > *_swig_go_0) {
   std::vector< float > *arg1 = 0 ;
   kp::Tensor *result = 0 ;
   kp::Tensor *_swig_go_result;
@@ -745,7 +748,7 @@ kp::Tensor *_wrap_new_Tensor__SWIG_2_kompute_209ca5717ea3ce19(std::vector< float
 }
 
 
-void _wrap_delete_Tensor_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+void _wrap_delete_Tensor_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
@@ -755,7 +758,7 @@ void _wrap_delete_Tensor_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
 }
 
 
-void _wrap_Tensor_init_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::shared_ptr< vk::PhysicalDevice > *_swig_go_1, std::shared_ptr< vk::Device > *_swig_go_2) {
+void _wrap_Tensor_init_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0, std::shared_ptr< vk::PhysicalDevice > *_swig_go_1, std::shared_ptr< vk::Device > *_swig_go_2) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::shared_ptr< vk::PhysicalDevice > arg2 ;
   std::shared_ptr< vk::Device > arg3 ;
@@ -783,7 +786,7 @@ void _wrap_Tensor_init_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::sha
 }
 
 
-void _wrap_Tensor_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+void _wrap_Tensor_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
@@ -793,7 +796,7 @@ void _wrap_Tensor_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(kp::Ten
 }
 
 
-std::vector< float > *_wrap_Tensor_data_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+std::vector< float > *_wrap_Tensor_data_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::vector< float > *result = 0 ;
   std::vector< float > *_swig_go_result;
@@ -806,23 +809,23 @@ std::vector< float > *_wrap_Tensor_data_kompute_209ca5717ea3ce19(kp::Tensor *_sw
 }
 
 
-uint32_t *_wrap_Tensor_size_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+intgo _wrap_Tensor_size_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   uint32_t result;
-  uint32_t *_swig_go_result;
+  intgo _swig_go_result;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
   
-  result = (arg1)->size();
-  *(uint32_t **)&_swig_go_result = new uint32_t(result); 
+  result = (uint32_t)(arg1)->size();
+  _swig_go_result = result; 
   return _swig_go_result;
 }
 
 
-std::array< uint32_t,1 > *_wrap_Tensor_shape_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+std::array< unsigned int,1 > *_wrap_Tensor_shape_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::array< uint32_t,1 > result;
-  std::array< uint32_t,1 > *_swig_go_result;
+  std::array< unsigned int,1 > *_swig_go_result;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
   
@@ -832,7 +835,7 @@ std::array< uint32_t,1 > *_wrap_Tensor_shape_kompute_209ca5717ea3ce19(kp::Tensor
 }
 
 
-intgo _wrap_Tensor_tensorType_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+intgo _wrap_Tensor_tensorType_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   kp::Tensor::TensorTypes result;
   intgo _swig_go_result;
@@ -845,7 +848,7 @@ intgo _wrap_Tensor_tensorType_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
 }
 
 
-bool _wrap_Tensor_isInit_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+bool _wrap_Tensor_isInit_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -858,7 +861,7 @@ bool _wrap_Tensor_isInit_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
 }
 
 
-void _wrap_Tensor_setData_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::vector< float > *_swig_go_1) {
+void _wrap_Tensor_setData_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0, std::vector< float > *_swig_go_1) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::vector< float > *arg2 = 0 ;
   
@@ -870,7 +873,7 @@ void _wrap_Tensor_setData_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::
 }
 
 
-void _wrap_Tensor_recordCopyFrom_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1, std::shared_ptr< kp::Tensor > *_swig_go_2, bool _swig_go_3) {
+void _wrap_Tensor_recordCopyFrom_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1, std::shared_ptr< kp::Tensor > *_swig_go_2, bool _swig_go_3) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::shared_ptr< vk::CommandBuffer > arg2 ;
   SwigValueWrapper< std::shared_ptr< kp::Tensor > > arg3 ;
@@ -900,7 +903,7 @@ void _wrap_Tensor_recordCopyFrom_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0
 }
 
 
-void _wrap_Tensor_recordBufferMemoryBarrier_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1, vk::AccessFlagBits *_swig_go_2, vk::AccessFlagBits *_swig_go_3, vk::PipelineStageFlagBits *_swig_go_4, vk::PipelineStageFlagBits *_swig_go_5) {
+void _wrap_Tensor_recordBufferMemoryBarrier_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1, vk::AccessFlagBits *_swig_go_2, vk::AccessFlagBits *_swig_go_3, vk::PipelineStageFlagBits *_swig_go_4, vk::PipelineStageFlagBits *_swig_go_5) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   std::shared_ptr< vk::CommandBuffer > arg2 ;
   vk::AccessFlagBits arg3 ;
@@ -955,7 +958,7 @@ void _wrap_Tensor_recordBufferMemoryBarrier_kompute_209ca5717ea3ce19(kp::Tensor 
 }
 
 
-vk::DescriptorBufferInfo *_wrap_Tensor_constructDescriptorBufferInfo_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+vk::DescriptorBufferInfo *_wrap_Tensor_constructDescriptorBufferInfo_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   vk::DescriptorBufferInfo result;
   vk::DescriptorBufferInfo *_swig_go_result;
@@ -968,7 +971,7 @@ vk::DescriptorBufferInfo *_wrap_Tensor_constructDescriptorBufferInfo_kompute_209
 }
 
 
-void _wrap_Tensor_mapDataFromHostMemory_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+void _wrap_Tensor_mapDataFromHostMemory_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
@@ -978,7 +981,7 @@ void _wrap_Tensor_mapDataFromHostMemory_kompute_209ca5717ea3ce19(kp::Tensor *_sw
 }
 
 
-void _wrap_Tensor_mapDataIntoHostMemory_kompute_209ca5717ea3ce19(kp::Tensor *_swig_go_0) {
+void _wrap_Tensor_mapDataIntoHostMemory_kompute_c87b3565665a14c1(kp::Tensor *_swig_go_0) {
   kp::Tensor *arg1 = (kp::Tensor *) 0 ;
   
   arg1 = *(kp::Tensor **)&_swig_go_0; 
@@ -988,7 +991,7 @@ void _wrap_Tensor_mapDataIntoHostMemory_kompute_209ca5717ea3ce19(kp::Tensor *_sw
 }
 
 
-void _wrap_delete_OpBase_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
+void _wrap_delete_OpBase_kompute_c87b3565665a14c1(kp::OpBase *_swig_go_0) {
   kp::OpBase *arg1 = (kp::OpBase *) 0 ;
   
   arg1 = *(kp::OpBase **)&_swig_go_0; 
@@ -998,7 +1001,7 @@ void _wrap_delete_OpBase_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
 }
 
 
-void _wrap_OpBase_init_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
+void _wrap_OpBase_init_kompute_c87b3565665a14c1(kp::OpBase *_swig_go_0) {
   kp::OpBase *arg1 = (kp::OpBase *) 0 ;
   
   arg1 = *(kp::OpBase **)&_swig_go_0; 
@@ -1008,7 +1011,7 @@ void _wrap_OpBase_init_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
 }
 
 
-void _wrap_OpBase_record_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
+void _wrap_OpBase_record_kompute_c87b3565665a14c1(kp::OpBase *_swig_go_0) {
   kp::OpBase *arg1 = (kp::OpBase *) 0 ;
   
   arg1 = *(kp::OpBase **)&_swig_go_0; 
@@ -1018,7 +1021,7 @@ void _wrap_OpBase_record_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
 }
 
 
-void _wrap_OpBase_preEval_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
+void _wrap_OpBase_preEval_kompute_c87b3565665a14c1(kp::OpBase *_swig_go_0) {
   kp::OpBase *arg1 = (kp::OpBase *) 0 ;
   
   arg1 = *(kp::OpBase **)&_swig_go_0; 
@@ -1028,7 +1031,7 @@ void _wrap_OpBase_preEval_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
 }
 
 
-void _wrap_OpBase_postEval_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
+void _wrap_OpBase_postEval_kompute_c87b3565665a14c1(kp::OpBase *_swig_go_0) {
   kp::OpBase *arg1 = (kp::OpBase *) 0 ;
   
   arg1 = *(kp::OpBase **)&_swig_go_0; 
@@ -1038,7 +1041,7 @@ void _wrap_OpBase_postEval_kompute_209ca5717ea3ce19(kp::OpBase *_swig_go_0) {
 }
 
 
-kp::Sequence *_wrap_new_Sequence__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::Sequence *_wrap_new_Sequence__SWIG_0_kompute_c87b3565665a14c1() {
   kp::Sequence *result = 0 ;
   kp::Sequence *_swig_go_result;
   
@@ -1049,7 +1052,7 @@ kp::Sequence *_wrap_new_Sequence__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::Sequence *_wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::Queue > *_swig_go_2, uint32_t *_swig_go_3) {
+kp::Sequence *_wrap_new_Sequence__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::Queue > *_swig_go_2, intgo _swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::Queue > arg3 ;
@@ -1057,7 +1060,6 @@ kp::Sequence *_wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(std::shared_pt
   std::shared_ptr< vk::PhysicalDevice > *argp1 ;
   std::shared_ptr< vk::Device > *argp2 ;
   std::shared_ptr< vk::Queue > *argp3 ;
-  uint32_t *argp4 ;
   kp::Sequence *result = 0 ;
   kp::Sequence *_swig_go_result;
   
@@ -1082,13 +1084,7 @@ kp::Sequence *_wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(std::shared_pt
   }
   arg3 = (std::shared_ptr< vk::Queue >)*argp3;
   
-  
-  argp4 = (uint32_t *)_swig_go_3;
-  if (argp4 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg4 = (uint32_t)*argp4;
-  
+  arg4 = (uint32_t)_swig_go_3; 
   
   result = (kp::Sequence *)new kp::Sequence(arg1,arg2,arg3,arg4);
   *(kp::Sequence **)&_swig_go_result = (kp::Sequence *)result; 
@@ -1096,7 +1092,7 @@ kp::Sequence *_wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(std::shared_pt
 }
 
 
-void _wrap_delete_Sequence_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+void _wrap_delete_Sequence_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   
   arg1 = *(kp::Sequence **)&_swig_go_0; 
@@ -1106,7 +1102,7 @@ void _wrap_delete_Sequence_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-void _wrap_Sequence_init_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+void _wrap_Sequence_init_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   
   arg1 = *(kp::Sequence **)&_swig_go_0; 
@@ -1116,7 +1112,7 @@ void _wrap_Sequence_init_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-bool _wrap_Sequence_begin_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_begin_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1129,7 +1125,7 @@ bool _wrap_Sequence_begin_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-bool _wrap_Sequence_end_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_end_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1142,7 +1138,7 @@ bool _wrap_Sequence_end_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-bool _wrap_Sequence_eval_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_eval_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1155,7 +1151,7 @@ bool _wrap_Sequence_eval_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-bool _wrap_Sequence_evalAsync_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_evalAsync_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1168,21 +1164,14 @@ bool _wrap_Sequence_evalAsync_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0)
 }
 
 
-bool _wrap_Sequence_evalAwait__SWIG_0_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0, uint64_t *_swig_go_1) {
+bool _wrap_Sequence_evalAwait__SWIG_0_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0, long long _swig_go_1) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   uint64_t arg2 ;
-  uint64_t *argp2 ;
   bool result;
   bool _swig_go_result;
   
   arg1 = *(kp::Sequence **)&_swig_go_0; 
-  
-  argp2 = (uint64_t *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint64_t");
-  }
-  arg2 = (uint64_t)*argp2;
-  
+  arg2 = (uint64_t)_swig_go_1; 
   
   result = (bool)(arg1)->evalAwait(arg2);
   _swig_go_result = result; 
@@ -1190,7 +1179,7 @@ bool _wrap_Sequence_evalAwait__SWIG_0_kompute_209ca5717ea3ce19(kp::Sequence *_sw
 }
 
 
-bool _wrap_Sequence_evalAwait__SWIG_1_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_evalAwait__SWIG_1_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1203,7 +1192,7 @@ bool _wrap_Sequence_evalAwait__SWIG_1_kompute_209ca5717ea3ce19(kp::Sequence *_sw
 }
 
 
-bool _wrap_Sequence_isRecording_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_isRecording_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1216,7 +1205,7 @@ bool _wrap_Sequence_isRecording_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_
 }
 
 
-bool _wrap_Sequence_isRunning_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_isRunning_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1229,7 +1218,7 @@ bool _wrap_Sequence_isRunning_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0)
 }
 
 
-bool _wrap_Sequence_isInit_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+bool _wrap_Sequence_isInit_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1242,7 +1231,7 @@ bool _wrap_Sequence_isInit_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
 }
 
 
-void _wrap_Sequence_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(kp::Sequence *_swig_go_0) {
+void _wrap_Sequence_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(kp::Sequence *_swig_go_0) {
   kp::Sequence *arg1 = (kp::Sequence *) 0 ;
   
   arg1 = *(kp::Sequence **)&_swig_go_0; 
@@ -1252,7 +1241,7 @@ void _wrap_Sequence_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(kp::S
 }
 
 
-kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpTensorCreate *result = 0 ;
   kp::OpTensorCreate *_swig_go_result;
   
@@ -1263,7 +1252,7 @@ kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_0_kompute_209ca5717ea3ce19() 
 }
 
 
-kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -1310,7 +1299,7 @@ kp::OpTensorCreate *_wrap_new_OpTensorCreate__SWIG_1_kompute_209ca5717ea3ce19(st
 }
 
 
-void _wrap_delete_OpTensorCreate_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swig_go_0) {
+void _wrap_delete_OpTensorCreate_kompute_c87b3565665a14c1(kp::OpTensorCreate *_swig_go_0) {
   kp::OpTensorCreate *arg1 = (kp::OpTensorCreate *) 0 ;
   
   arg1 = *(kp::OpTensorCreate **)&_swig_go_0; 
@@ -1320,7 +1309,7 @@ void _wrap_delete_OpTensorCreate_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_s
 }
 
 
-void _wrap_OpTensorCreate_init_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swig_go_0) {
+void _wrap_OpTensorCreate_init_kompute_c87b3565665a14c1(kp::OpTensorCreate *_swig_go_0) {
   kp::OpTensorCreate *arg1 = (kp::OpTensorCreate *) 0 ;
   
   arg1 = *(kp::OpTensorCreate **)&_swig_go_0; 
@@ -1330,7 +1319,7 @@ void _wrap_OpTensorCreate_init_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swi
 }
 
 
-void _wrap_OpTensorCreate_record_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swig_go_0) {
+void _wrap_OpTensorCreate_record_kompute_c87b3565665a14c1(kp::OpTensorCreate *_swig_go_0) {
   kp::OpTensorCreate *arg1 = (kp::OpTensorCreate *) 0 ;
   
   arg1 = *(kp::OpTensorCreate **)&_swig_go_0; 
@@ -1340,7 +1329,7 @@ void _wrap_OpTensorCreate_record_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_s
 }
 
 
-void _wrap_OpTensorCreate_preEval_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swig_go_0) {
+void _wrap_OpTensorCreate_preEval_kompute_c87b3565665a14c1(kp::OpTensorCreate *_swig_go_0) {
   kp::OpTensorCreate *arg1 = (kp::OpTensorCreate *) 0 ;
   
   arg1 = *(kp::OpTensorCreate **)&_swig_go_0; 
@@ -1350,7 +1339,7 @@ void _wrap_OpTensorCreate_preEval_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_
 }
 
 
-void _wrap_OpTensorCreate_postEval_kompute_209ca5717ea3ce19(kp::OpTensorCreate *_swig_go_0) {
+void _wrap_OpTensorCreate_postEval_kompute_c87b3565665a14c1(kp::OpTensorCreate *_swig_go_0) {
   kp::OpTensorCreate *arg1 = (kp::OpTensorCreate *) 0 ;
   
   arg1 = *(kp::OpTensorCreate **)&_swig_go_0; 
@@ -1360,7 +1349,7 @@ void _wrap_OpTensorCreate_postEval_kompute_209ca5717ea3ce19(kp::OpTensorCreate *
 }
 
 
-kp::Manager *_wrap_new_Manager__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::Manager *_wrap_new_Manager__SWIG_0_kompute_c87b3565665a14c1() {
   kp::Manager *result = 0 ;
   kp::Manager *_swig_go_result;
   
@@ -1371,20 +1360,13 @@ kp::Manager *_wrap_new_Manager__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::Manager *_wrap_new_Manager__SWIG_1_kompute_209ca5717ea3ce19(uint32_t *_swig_go_0, std::vector< uint32_t > *_swig_go_1) {
+kp::Manager *_wrap_new_Manager__SWIG_1_kompute_c87b3565665a14c1(intgo _swig_go_0, std::vector< unsigned int > *_swig_go_1) {
   uint32_t arg1 ;
   std::vector< uint32_t > *arg2 = 0 ;
-  uint32_t *argp1 ;
   kp::Manager *result = 0 ;
   kp::Manager *_swig_go_result;
   
-  
-  argp1 = (uint32_t *)_swig_go_0;
-  if (argp1 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg1 = (uint32_t)*argp1;
-  
+  arg1 = (uint32_t)_swig_go_0; 
   arg2 = *(std::vector< uint32_t > **)&_swig_go_1; 
   
   result = (kp::Manager *)new kp::Manager(arg1,(std::vector< uint32_t > const &)*arg2);
@@ -1393,19 +1375,12 @@ kp::Manager *_wrap_new_Manager__SWIG_1_kompute_209ca5717ea3ce19(uint32_t *_swig_
 }
 
 
-kp::Manager *_wrap_new_Manager__SWIG_2_kompute_209ca5717ea3ce19(uint32_t *_swig_go_0) {
+kp::Manager *_wrap_new_Manager__SWIG_2_kompute_c87b3565665a14c1(intgo _swig_go_0) {
   uint32_t arg1 ;
-  uint32_t *argp1 ;
   kp::Manager *result = 0 ;
   kp::Manager *_swig_go_result;
   
-  
-  argp1 = (uint32_t *)_swig_go_0;
-  if (argp1 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg1 = (uint32_t)*argp1;
-  
+  arg1 = (uint32_t)_swig_go_0; 
   
   result = (kp::Manager *)new kp::Manager(arg1);
   *(kp::Manager **)&_swig_go_result = (kp::Manager *)result; 
@@ -1413,7 +1388,7 @@ kp::Manager *_wrap_new_Manager__SWIG_2_kompute_209ca5717ea3ce19(uint32_t *_swig_
 }
 
 
-kp::Manager *_wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(std::shared_ptr< vk::Instance > *_swig_go_0, std::shared_ptr< vk::PhysicalDevice > *_swig_go_1, std::shared_ptr< vk::Device > *_swig_go_2, uint32_t *_swig_go_3) {
+kp::Manager *_wrap_new_Manager__SWIG_3_kompute_c87b3565665a14c1(std::shared_ptr< vk::Instance > *_swig_go_0, std::shared_ptr< vk::PhysicalDevice > *_swig_go_1, std::shared_ptr< vk::Device > *_swig_go_2, intgo _swig_go_3) {
   std::shared_ptr< vk::Instance > arg1 ;
   std::shared_ptr< vk::PhysicalDevice > arg2 ;
   std::shared_ptr< vk::Device > arg3 ;
@@ -1421,7 +1396,6 @@ kp::Manager *_wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(std::shared_ptr<
   std::shared_ptr< vk::Instance > *argp1 ;
   std::shared_ptr< vk::PhysicalDevice > *argp2 ;
   std::shared_ptr< vk::Device > *argp3 ;
-  uint32_t *argp4 ;
   kp::Manager *result = 0 ;
   kp::Manager *_swig_go_result;
   
@@ -1446,13 +1420,7 @@ kp::Manager *_wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(std::shared_ptr<
   }
   arg3 = (std::shared_ptr< vk::Device >)*argp3;
   
-  
-  argp4 = (uint32_t *)_swig_go_3;
-  if (argp4 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg4 = (uint32_t)*argp4;
-  
+  arg4 = (uint32_t)_swig_go_3; 
   
   result = (kp::Manager *)new kp::Manager(arg1,arg2,arg3,arg4);
   *(kp::Manager **)&_swig_go_result = (kp::Manager *)result; 
@@ -1460,7 +1428,7 @@ kp::Manager *_wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(std::shared_ptr<
 }
 
 
-void _wrap_delete_Manager_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0) {
+void _wrap_delete_Manager_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   
   arg1 = *(kp::Manager **)&_swig_go_0; 
@@ -1470,7 +1438,7 @@ void _wrap_delete_Manager_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0) {
 }
 
 
-std::shared_ptr< kp::Sequence > *_wrap_Manager_getOrCreateManagedSequence_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
+std::shared_ptr< kp::Sequence > *_wrap_Manager_getOrCreateManagedSequence_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::string arg2 ;
   SwigValueWrapper< std::shared_ptr< kp::Sequence > > result;
@@ -1485,23 +1453,16 @@ std::shared_ptr< kp::Sequence > *_wrap_Manager_getOrCreateManagedSequence_komput
 }
 
 
-std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_0_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, _gostring_ _swig_go_1, uint32_t *_swig_go_2) {
+std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_0_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::string arg2 ;
   uint32_t arg3 ;
-  uint32_t *argp3 ;
   SwigValueWrapper< std::shared_ptr< kp::Sequence > > result;
   std::shared_ptr< kp::Sequence > *_swig_go_result;
   
   arg1 = *(kp::Manager **)&_swig_go_0; 
   (&arg2)->assign(_swig_go_1.p, _swig_go_1.n); 
-  
-  argp3 = (uint32_t *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg3 = (uint32_t)*argp3;
-  
+  arg3 = (uint32_t)_swig_go_2; 
   
   result = (arg1)->createManagedSequence(arg2,arg3);
   *(std::shared_ptr< kp::Sequence > **)&_swig_go_result = new std::shared_ptr< kp::Sequence >(result); 
@@ -1509,7 +1470,7 @@ std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_0_kom
 }
 
 
-std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_1_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
+std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_1_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::string arg2 ;
   SwigValueWrapper< std::shared_ptr< kp::Sequence > > result;
@@ -1524,7 +1485,7 @@ std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_1_kom
 }
 
 
-std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_2_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0) {
+std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_2_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   SwigValueWrapper< std::shared_ptr< kp::Sequence > > result;
   std::shared_ptr< kp::Sequence > *_swig_go_result;
@@ -1537,28 +1498,21 @@ std::shared_ptr< kp::Sequence > *_wrap_Manager_createManagedSequence__SWIG_2_kom
 }
 
 
-void _wrap_Manager_evalOpAwait__SWIG_0_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, _gostring_ _swig_go_1, uint64_t *_swig_go_2) {
+void _wrap_Manager_evalOpAwait__SWIG_0_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::string arg2 ;
   uint64_t arg3 ;
-  uint64_t *argp3 ;
   
   arg1 = *(kp::Manager **)&_swig_go_0; 
   (&arg2)->assign(_swig_go_1.p, _swig_go_1.n); 
-  
-  argp3 = (uint64_t *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint64_t");
-  }
-  arg3 = (uint64_t)*argp3;
-  
+  arg3 = (uint64_t)_swig_go_2; 
   
   (arg1)->evalOpAwait(arg2,arg3);
   
 }
 
 
-void _wrap_Manager_evalOpAwait__SWIG_1_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_Manager_evalOpAwait__SWIG_1_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, _gostring_ _swig_go_1) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::string arg2 ;
   
@@ -1570,26 +1524,19 @@ void _wrap_Manager_evalOpAwait__SWIG_1_kompute_209ca5717ea3ce19(kp::Manager *_sw
 }
 
 
-void _wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, uint64_t *_swig_go_1) {
+void _wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, long long _swig_go_1) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   uint64_t arg2 ;
-  uint64_t *argp2 ;
   
   arg1 = *(kp::Manager **)&_swig_go_0; 
-  
-  argp2 = (uint64_t *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint64_t");
-  }
-  arg2 = (uint64_t)*argp2;
-  
+  arg2 = (uint64_t)_swig_go_1; 
   
   (arg1)->evalOpAwaitDefault(arg2);
   
 }
 
 
-void _wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0) {
+void _wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   
   arg1 = *(kp::Manager **)&_swig_go_0; 
@@ -1599,7 +1546,7 @@ void _wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_209ca5717ea3ce19(kp::Manag
 }
 
 
-std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_0_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, std::vector< float > *_swig_go_1, intgo _swig_go_2) {
+std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_0_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, std::vector< float > *_swig_go_1, intgo _swig_go_2) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::vector< float > *arg2 = 0 ;
   kp::Tensor::TensorTypes arg3 ;
@@ -1616,7 +1563,7 @@ std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_0_kompute_209ca57
 }
 
 
-std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_1_kompute_209ca5717ea3ce19(kp::Manager *_swig_go_0, std::vector< float > *_swig_go_1) {
+std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_1_kompute_c87b3565665a14c1(kp::Manager *_swig_go_0, std::vector< float > *_swig_go_1) {
   kp::Manager *arg1 = (kp::Manager *) 0 ;
   std::vector< float > *arg2 = 0 ;
   SwigValueWrapper< std::shared_ptr< kp::Tensor > > result;
@@ -1631,7 +1578,7 @@ std::shared_ptr< kp::Tensor > *_wrap_Manager_buildTensor__SWIG_1_kompute_209ca57
 }
 
 
-kp::Algorithm *_wrap_new_Algorithm__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::Algorithm *_wrap_new_Algorithm__SWIG_0_kompute_c87b3565665a14c1() {
   kp::Algorithm *result = 0 ;
   kp::Algorithm *_swig_go_result;
   
@@ -1642,7 +1589,7 @@ kp::Algorithm *_wrap_new_Algorithm__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::Algorithm *_wrap_new_Algorithm__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::Device > *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1) {
+kp::Algorithm *_wrap_new_Algorithm__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::Device > *_swig_go_0, std::shared_ptr< vk::CommandBuffer > *_swig_go_1) {
   std::shared_ptr< vk::Device > arg1 ;
   std::shared_ptr< vk::CommandBuffer > arg2 ;
   std::shared_ptr< vk::Device > *argp1 ;
@@ -1671,7 +1618,7 @@ kp::Algorithm *_wrap_new_Algorithm__SWIG_1_kompute_209ca5717ea3ce19(std::shared_
 }
 
 
-void _wrap_Algorithm_init_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0, std::vector< char > *_swig_go_1, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_2) {
+void _wrap_Algorithm_init_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0, std::vector< char > *_swig_go_1, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_2) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   std::vector< char > *arg2 = 0 ;
   SwigValueWrapper< std::vector< std::shared_ptr< kp::Tensor > > > arg3 ;
@@ -1692,7 +1639,7 @@ void _wrap_Algorithm_init_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0, st
 }
 
 
-void _wrap_delete_Algorithm_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0) {
+void _wrap_delete_Algorithm_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   
   arg1 = *(kp::Algorithm **)&_swig_go_0; 
@@ -1702,91 +1649,49 @@ void _wrap_delete_Algorithm_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0) 
 }
 
 
-void _wrap_Algorithm_recordDispatch__SWIG_0_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0, uint32_t *_swig_go_1, uint32_t *_swig_go_2, uint32_t *_swig_go_3) {
+void _wrap_Algorithm_recordDispatch__SWIG_0_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   uint32_t arg2 ;
   uint32_t arg3 ;
   uint32_t arg4 ;
-  uint32_t *argp2 ;
-  uint32_t *argp3 ;
-  uint32_t *argp4 ;
   
   arg1 = *(kp::Algorithm **)&_swig_go_0; 
-  
-  argp2 = (uint32_t *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg2 = (uint32_t)*argp2;
-  
-  
-  argp3 = (uint32_t *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg3 = (uint32_t)*argp3;
-  
-  
-  argp4 = (uint32_t *)_swig_go_3;
-  if (argp4 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg4 = (uint32_t)*argp4;
-  
+  arg2 = (uint32_t)_swig_go_1; 
+  arg3 = (uint32_t)_swig_go_2; 
+  arg4 = (uint32_t)_swig_go_3; 
   
   (arg1)->recordDispatch(arg2,arg3,arg4);
   
 }
 
 
-void _wrap_Algorithm_recordDispatch__SWIG_1_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0, uint32_t *_swig_go_1, uint32_t *_swig_go_2) {
+void _wrap_Algorithm_recordDispatch__SWIG_1_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   uint32_t arg2 ;
   uint32_t arg3 ;
-  uint32_t *argp2 ;
-  uint32_t *argp3 ;
   
   arg1 = *(kp::Algorithm **)&_swig_go_0; 
-  
-  argp2 = (uint32_t *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg2 = (uint32_t)*argp2;
-  
-  
-  argp3 = (uint32_t *)_swig_go_2;
-  if (argp3 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg3 = (uint32_t)*argp3;
-  
+  arg2 = (uint32_t)_swig_go_1; 
+  arg3 = (uint32_t)_swig_go_2; 
   
   (arg1)->recordDispatch(arg2,arg3);
   
 }
 
 
-void _wrap_Algorithm_recordDispatch__SWIG_2_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0, uint32_t *_swig_go_1) {
+void _wrap_Algorithm_recordDispatch__SWIG_2_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0, intgo _swig_go_1) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   uint32_t arg2 ;
-  uint32_t *argp2 ;
   
   arg1 = *(kp::Algorithm **)&_swig_go_0; 
-  
-  argp2 = (uint32_t *)_swig_go_1;
-  if (argp2 == NULL) {
-    _swig_gopanic("Attempt to dereference null uint32_t");
-  }
-  arg2 = (uint32_t)*argp2;
-  
+  arg2 = (uint32_t)_swig_go_1; 
   
   (arg1)->recordDispatch(arg2);
   
 }
 
 
-void _wrap_Algorithm_recordDispatch__SWIG_3_kompute_209ca5717ea3ce19(kp::Algorithm *_swig_go_0) {
+void _wrap_Algorithm_recordDispatch__SWIG_3_kompute_c87b3565665a14c1(kp::Algorithm *_swig_go_0) {
   kp::Algorithm *arg1 = (kp::Algorithm *) 0 ;
   
   arg1 = *(kp::Algorithm **)&_swig_go_0; 
@@ -1796,7 +1701,7 @@ void _wrap_Algorithm_recordDispatch__SWIG_3_kompute_209ca5717ea3ce19(kp::Algorit
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpAlgoBase *result = 0 ;
   kp::OpAlgoBase *_swig_go_result;
   
@@ -1807,7 +1712,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -1856,7 +1761,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_1_kompute_209ca5717ea3ce19(std::share
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_2_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_2_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -1896,7 +1801,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_2_kompute_209ca5717ea3ce19(std::share
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_3_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, _gostring_ _swig_go_4, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_5) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_3_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, _gostring_ _swig_go_4, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_5) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -1947,7 +1852,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_3_kompute_209ca5717ea3ce19(std::share
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_4_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, _gostring_ _swig_go_4) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_4_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, _gostring_ _swig_go_4) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -1989,7 +1894,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_4_kompute_209ca5717ea3ce19(std::share
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_5_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, std::vector< char > *_swig_go_4, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_5) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_5_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, std::vector< char > *_swig_go_4, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_5) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2040,7 +1945,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_5_kompute_209ca5717ea3ce19(std::share
 }
 
 
-kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_6_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, std::vector< char > *_swig_go_4) {
+kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_6_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, std::vector< char > *_swig_go_4) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2082,7 +1987,7 @@ kp::OpAlgoBase *_wrap_new_OpAlgoBase__SWIG_6_kompute_209ca5717ea3ce19(std::share
 }
 
 
-void _wrap_delete_OpAlgoBase_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) {
+void _wrap_delete_OpAlgoBase_kompute_c87b3565665a14c1(kp::OpAlgoBase *_swig_go_0) {
   kp::OpAlgoBase *arg1 = (kp::OpAlgoBase *) 0 ;
   
   arg1 = *(kp::OpAlgoBase **)&_swig_go_0; 
@@ -2092,7 +1997,7 @@ void _wrap_delete_OpAlgoBase_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0
 }
 
 
-void _wrap_OpAlgoBase_init_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) {
+void _wrap_OpAlgoBase_init_kompute_c87b3565665a14c1(kp::OpAlgoBase *_swig_go_0) {
   kp::OpAlgoBase *arg1 = (kp::OpAlgoBase *) 0 ;
   
   arg1 = *(kp::OpAlgoBase **)&_swig_go_0; 
@@ -2102,7 +2007,7 @@ void _wrap_OpAlgoBase_init_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) 
 }
 
 
-void _wrap_OpAlgoBase_record_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) {
+void _wrap_OpAlgoBase_record_kompute_c87b3565665a14c1(kp::OpAlgoBase *_swig_go_0) {
   kp::OpAlgoBase *arg1 = (kp::OpAlgoBase *) 0 ;
   
   arg1 = *(kp::OpAlgoBase **)&_swig_go_0; 
@@ -2112,7 +2017,7 @@ void _wrap_OpAlgoBase_record_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0
 }
 
 
-void _wrap_OpAlgoBase_preEval_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) {
+void _wrap_OpAlgoBase_preEval_kompute_c87b3565665a14c1(kp::OpAlgoBase *_swig_go_0) {
   kp::OpAlgoBase *arg1 = (kp::OpAlgoBase *) 0 ;
   
   arg1 = *(kp::OpAlgoBase **)&_swig_go_0; 
@@ -2122,7 +2027,7 @@ void _wrap_OpAlgoBase_preEval_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_
 }
 
 
-void _wrap_OpAlgoBase_postEval_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go_0) {
+void _wrap_OpAlgoBase_postEval_kompute_c87b3565665a14c1(kp::OpAlgoBase *_swig_go_0) {
   kp::OpAlgoBase *arg1 = (kp::OpAlgoBase *) 0 ;
   
   arg1 = *(kp::OpAlgoBase **)&_swig_go_0; 
@@ -2132,7 +2037,7 @@ void _wrap_OpAlgoBase_postEval_kompute_209ca5717ea3ce19(kp::OpAlgoBase *_swig_go
 }
 
 
-kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpAlgoLhsRhsOut *result = 0 ;
   kp::OpAlgoLhsRhsOut *_swig_go_result;
   
@@ -2143,7 +2048,7 @@ kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_209ca5717ea3ce19(
 }
 
 
-kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
+kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2199,7 +2104,7 @@ kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_209ca5717ea3ce19(
 }
 
 
-kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2246,7 +2151,7 @@ kp::OpAlgoLhsRhsOut *_wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_209ca5717ea3ce19(
 }
 
 
-void _wrap_delete_OpAlgoLhsRhsOut_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_swig_go_0) {
+void _wrap_delete_OpAlgoLhsRhsOut_kompute_c87b3565665a14c1(kp::OpAlgoLhsRhsOut *_swig_go_0) {
   kp::OpAlgoLhsRhsOut *arg1 = (kp::OpAlgoLhsRhsOut *) 0 ;
   
   arg1 = *(kp::OpAlgoLhsRhsOut **)&_swig_go_0; 
@@ -2256,7 +2161,7 @@ void _wrap_delete_OpAlgoLhsRhsOut_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *
 }
 
 
-void _wrap_OpAlgoLhsRhsOut_init_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_swig_go_0) {
+void _wrap_OpAlgoLhsRhsOut_init_kompute_c87b3565665a14c1(kp::OpAlgoLhsRhsOut *_swig_go_0) {
   kp::OpAlgoLhsRhsOut *arg1 = (kp::OpAlgoLhsRhsOut *) 0 ;
   
   arg1 = *(kp::OpAlgoLhsRhsOut **)&_swig_go_0; 
@@ -2266,7 +2171,7 @@ void _wrap_OpAlgoLhsRhsOut_init_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_s
 }
 
 
-void _wrap_OpAlgoLhsRhsOut_record_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_swig_go_0) {
+void _wrap_OpAlgoLhsRhsOut_record_kompute_c87b3565665a14c1(kp::OpAlgoLhsRhsOut *_swig_go_0) {
   kp::OpAlgoLhsRhsOut *arg1 = (kp::OpAlgoLhsRhsOut *) 0 ;
   
   arg1 = *(kp::OpAlgoLhsRhsOut **)&_swig_go_0; 
@@ -2276,7 +2181,7 @@ void _wrap_OpAlgoLhsRhsOut_record_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *
 }
 
 
-void _wrap_OpAlgoLhsRhsOut_postEval_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_swig_go_0) {
+void _wrap_OpAlgoLhsRhsOut_postEval_kompute_c87b3565665a14c1(kp::OpAlgoLhsRhsOut *_swig_go_0) {
   kp::OpAlgoLhsRhsOut *arg1 = (kp::OpAlgoLhsRhsOut *) 0 ;
   
   arg1 = *(kp::OpAlgoLhsRhsOut **)&_swig_go_0; 
@@ -2286,7 +2191,7 @@ void _wrap_OpAlgoLhsRhsOut_postEval_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut
 }
 
 
-void _wrap_OpAlgoLhsRhsOut_preEval_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut *_swig_go_0) {
+void _wrap_OpAlgoLhsRhsOut_preEval_kompute_c87b3565665a14c1(kp::OpAlgoLhsRhsOut *_swig_go_0) {
   kp::OpAlgoLhsRhsOut *arg1 = (kp::OpAlgoLhsRhsOut *) 0 ;
   
   arg1 = *(kp::OpAlgoLhsRhsOut **)&_swig_go_0; 
@@ -2297,7 +2202,7 @@ void _wrap_OpAlgoLhsRhsOut_preEval_kompute_209ca5717ea3ce19(kp::OpAlgoLhsRhsOut 
 }
 
 
-kp::OpMult *_wrap_new_OpMult__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpMult *_wrap_new_OpMult__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpMult *result = 0 ;
   kp::OpMult *_swig_go_result;
   
@@ -2308,7 +2213,7 @@ kp::OpMult *_wrap_new_OpMult__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::OpMult *_wrap_new_OpMult__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
+kp::OpMult *_wrap_new_OpMult__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3, kp::OpAlgoBase::KomputeWorkgroup *_swig_go_4) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2364,7 +2269,7 @@ kp::OpMult *_wrap_new_OpMult__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< v
 }
 
 
-kp::OpMult *_wrap_new_OpMult__SWIG_2_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpMult *_wrap_new_OpMult__SWIG_2_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2411,7 +2316,7 @@ kp::OpMult *_wrap_new_OpMult__SWIG_2_kompute_209ca5717ea3ce19(std::shared_ptr< v
 }
 
 
-void _wrap_delete_OpMult_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
+void _wrap_delete_OpMult_kompute_c87b3565665a14c1(kp::OpMult *_swig_go_0) {
   kp::OpMult *arg1 = (kp::OpMult *) 0 ;
   
   arg1 = *(kp::OpMult **)&_swig_go_0; 
@@ -2421,7 +2326,7 @@ void _wrap_delete_OpMult_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
 }
 
 
-void _wrap_OpMult_init_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
+void _wrap_OpMult_init_kompute_c87b3565665a14c1(kp::OpMult *_swig_go_0) {
   kp::OpMult *arg1 = (kp::OpMult *) 0 ;
   
   arg1 = *(kp::OpMult **)&_swig_go_0; 
@@ -2432,7 +2337,7 @@ void _wrap_OpMult_init_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
 }
 
 
-void _wrap_OpMult_record_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
+void _wrap_OpMult_record_kompute_c87b3565665a14c1(kp::OpMult *_swig_go_0) {
   kp::OpMult *arg1 = (kp::OpMult *) 0 ;
   
   arg1 = *(kp::OpMult **)&_swig_go_0; 
@@ -2443,7 +2348,7 @@ void _wrap_OpMult_record_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
 }
 
 
-void _wrap_OpMult_preEval_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
+void _wrap_OpMult_preEval_kompute_c87b3565665a14c1(kp::OpMult *_swig_go_0) {
   kp::OpMult *arg1 = (kp::OpMult *) 0 ;
   
   arg1 = *(kp::OpMult **)&_swig_go_0; 
@@ -2454,7 +2359,7 @@ void _wrap_OpMult_preEval_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
 }
 
 
-void _wrap_OpMult_postEval_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
+void _wrap_OpMult_postEval_kompute_c87b3565665a14c1(kp::OpMult *_swig_go_0) {
   kp::OpMult *arg1 = (kp::OpMult *) 0 ;
   
   arg1 = *(kp::OpMult **)&_swig_go_0; 
@@ -2465,7 +2370,7 @@ void _wrap_OpMult_postEval_kompute_209ca5717ea3ce19(kp::OpMult *_swig_go_0) {
 }
 
 
-kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpTensorCopy *result = 0 ;
   kp::OpTensorCopy *_swig_go_result;
   
@@ -2476,7 +2381,7 @@ kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_0_kompute_209ca5717ea3ce19() {
 }
 
 
-kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2523,7 +2428,7 @@ kp::OpTensorCopy *_wrap_new_OpTensorCopy__SWIG_1_kompute_209ca5717ea3ce19(std::s
 }
 
 
-void _wrap_delete_OpTensorCopy_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go_0) {
+void _wrap_delete_OpTensorCopy_kompute_c87b3565665a14c1(kp::OpTensorCopy *_swig_go_0) {
   kp::OpTensorCopy *arg1 = (kp::OpTensorCopy *) 0 ;
   
   arg1 = *(kp::OpTensorCopy **)&_swig_go_0; 
@@ -2533,7 +2438,7 @@ void _wrap_delete_OpTensorCopy_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_
 }
 
 
-void _wrap_OpTensorCopy_init_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go_0) {
+void _wrap_OpTensorCopy_init_kompute_c87b3565665a14c1(kp::OpTensorCopy *_swig_go_0) {
   kp::OpTensorCopy *arg1 = (kp::OpTensorCopy *) 0 ;
   
   arg1 = *(kp::OpTensorCopy **)&_swig_go_0; 
@@ -2543,7 +2448,7 @@ void _wrap_OpTensorCopy_init_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go
 }
 
 
-void _wrap_OpTensorCopy_record_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go_0) {
+void _wrap_OpTensorCopy_record_kompute_c87b3565665a14c1(kp::OpTensorCopy *_swig_go_0) {
   kp::OpTensorCopy *arg1 = (kp::OpTensorCopy *) 0 ;
   
   arg1 = *(kp::OpTensorCopy **)&_swig_go_0; 
@@ -2553,7 +2458,7 @@ void _wrap_OpTensorCopy_record_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_
 }
 
 
-void _wrap_OpTensorCopy_preEval_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go_0) {
+void _wrap_OpTensorCopy_preEval_kompute_c87b3565665a14c1(kp::OpTensorCopy *_swig_go_0) {
   kp::OpTensorCopy *arg1 = (kp::OpTensorCopy *) 0 ;
   
   arg1 = *(kp::OpTensorCopy **)&_swig_go_0; 
@@ -2563,7 +2468,7 @@ void _wrap_OpTensorCopy_preEval_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig
 }
 
 
-void _wrap_OpTensorCopy_postEval_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swig_go_0) {
+void _wrap_OpTensorCopy_postEval_kompute_c87b3565665a14c1(kp::OpTensorCopy *_swig_go_0) {
   kp::OpTensorCopy *arg1 = (kp::OpTensorCopy *) 0 ;
   
   arg1 = *(kp::OpTensorCopy **)&_swig_go_0; 
@@ -2573,7 +2478,7 @@ void _wrap_OpTensorCopy_postEval_kompute_209ca5717ea3ce19(kp::OpTensorCopy *_swi
 }
 
 
-kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpTensorSyncDevice *result = 0 ;
   kp::OpTensorSyncDevice *_swig_go_result;
   
@@ -2584,7 +2489,7 @@ kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_0_kompute_209ca5717ea
 }
 
 
-kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2631,7 +2536,7 @@ kp::OpTensorSyncDevice *_wrap_new_OpTensorSyncDevice__SWIG_1_kompute_209ca5717ea
 }
 
 
-void _wrap_delete_OpTensorSyncDevice_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevice *_swig_go_0) {
+void _wrap_delete_OpTensorSyncDevice_kompute_c87b3565665a14c1(kp::OpTensorSyncDevice *_swig_go_0) {
   kp::OpTensorSyncDevice *arg1 = (kp::OpTensorSyncDevice *) 0 ;
   
   arg1 = *(kp::OpTensorSyncDevice **)&_swig_go_0; 
@@ -2641,7 +2546,7 @@ void _wrap_delete_OpTensorSyncDevice_kompute_209ca5717ea3ce19(kp::OpTensorSyncDe
 }
 
 
-void _wrap_OpTensorSyncDevice_init_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevice *_swig_go_0) {
+void _wrap_OpTensorSyncDevice_init_kompute_c87b3565665a14c1(kp::OpTensorSyncDevice *_swig_go_0) {
   kp::OpTensorSyncDevice *arg1 = (kp::OpTensorSyncDevice *) 0 ;
   
   arg1 = *(kp::OpTensorSyncDevice **)&_swig_go_0; 
@@ -2651,7 +2556,7 @@ void _wrap_OpTensorSyncDevice_init_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevi
 }
 
 
-void _wrap_OpTensorSyncDevice_record_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevice *_swig_go_0) {
+void _wrap_OpTensorSyncDevice_record_kompute_c87b3565665a14c1(kp::OpTensorSyncDevice *_swig_go_0) {
   kp::OpTensorSyncDevice *arg1 = (kp::OpTensorSyncDevice *) 0 ;
   
   arg1 = *(kp::OpTensorSyncDevice **)&_swig_go_0; 
@@ -2661,7 +2566,7 @@ void _wrap_OpTensorSyncDevice_record_kompute_209ca5717ea3ce19(kp::OpTensorSyncDe
 }
 
 
-void _wrap_OpTensorSyncDevice_preEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevice *_swig_go_0) {
+void _wrap_OpTensorSyncDevice_preEval_kompute_c87b3565665a14c1(kp::OpTensorSyncDevice *_swig_go_0) {
   kp::OpTensorSyncDevice *arg1 = (kp::OpTensorSyncDevice *) 0 ;
   
   arg1 = *(kp::OpTensorSyncDevice **)&_swig_go_0; 
@@ -2671,7 +2576,7 @@ void _wrap_OpTensorSyncDevice_preEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncD
 }
 
 
-void _wrap_OpTensorSyncDevice_postEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncDevice *_swig_go_0) {
+void _wrap_OpTensorSyncDevice_postEval_kompute_c87b3565665a14c1(kp::OpTensorSyncDevice *_swig_go_0) {
   kp::OpTensorSyncDevice *arg1 = (kp::OpTensorSyncDevice *) 0 ;
   
   arg1 = *(kp::OpTensorSyncDevice **)&_swig_go_0; 
@@ -2681,7 +2586,7 @@ void _wrap_OpTensorSyncDevice_postEval_kompute_209ca5717ea3ce19(kp::OpTensorSync
 }
 
 
-kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_0_kompute_209ca5717ea3ce19() {
+kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_0_kompute_c87b3565665a14c1() {
   kp::OpTensorSyncLocal *result = 0 ;
   kp::OpTensorSyncLocal *_swig_go_result;
   
@@ -2692,7 +2597,7 @@ kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_0_kompute_209ca5717ea3c
 }
 
 
-kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_1_kompute_209ca5717ea3ce19(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
+kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_1_kompute_c87b3565665a14c1(std::shared_ptr< vk::PhysicalDevice > *_swig_go_0, std::shared_ptr< vk::Device > *_swig_go_1, std::shared_ptr< vk::CommandBuffer > *_swig_go_2, std::vector< std::shared_ptr< kp::Tensor > > *_swig_go_3) {
   std::shared_ptr< vk::PhysicalDevice > arg1 ;
   std::shared_ptr< vk::Device > arg2 ;
   std::shared_ptr< vk::CommandBuffer > arg3 ;
@@ -2739,7 +2644,7 @@ kp::OpTensorSyncLocal *_wrap_new_OpTensorSyncLocal__SWIG_1_kompute_209ca5717ea3c
 }
 
 
-void _wrap_delete_OpTensorSyncLocal_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal *_swig_go_0) {
+void _wrap_delete_OpTensorSyncLocal_kompute_c87b3565665a14c1(kp::OpTensorSyncLocal *_swig_go_0) {
   kp::OpTensorSyncLocal *arg1 = (kp::OpTensorSyncLocal *) 0 ;
   
   arg1 = *(kp::OpTensorSyncLocal **)&_swig_go_0; 
@@ -2749,7 +2654,7 @@ void _wrap_delete_OpTensorSyncLocal_kompute_209ca5717ea3ce19(kp::OpTensorSyncLoc
 }
 
 
-void _wrap_OpTensorSyncLocal_init_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal *_swig_go_0) {
+void _wrap_OpTensorSyncLocal_init_kompute_c87b3565665a14c1(kp::OpTensorSyncLocal *_swig_go_0) {
   kp::OpTensorSyncLocal *arg1 = (kp::OpTensorSyncLocal *) 0 ;
   
   arg1 = *(kp::OpTensorSyncLocal **)&_swig_go_0; 
@@ -2759,7 +2664,7 @@ void _wrap_OpTensorSyncLocal_init_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal
 }
 
 
-void _wrap_OpTensorSyncLocal_record_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal *_swig_go_0) {
+void _wrap_OpTensorSyncLocal_record_kompute_c87b3565665a14c1(kp::OpTensorSyncLocal *_swig_go_0) {
   kp::OpTensorSyncLocal *arg1 = (kp::OpTensorSyncLocal *) 0 ;
   
   arg1 = *(kp::OpTensorSyncLocal **)&_swig_go_0; 
@@ -2769,7 +2674,7 @@ void _wrap_OpTensorSyncLocal_record_kompute_209ca5717ea3ce19(kp::OpTensorSyncLoc
 }
 
 
-void _wrap_OpTensorSyncLocal_preEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal *_swig_go_0) {
+void _wrap_OpTensorSyncLocal_preEval_kompute_c87b3565665a14c1(kp::OpTensorSyncLocal *_swig_go_0) {
   kp::OpTensorSyncLocal *arg1 = (kp::OpTensorSyncLocal *) 0 ;
   
   arg1 = *(kp::OpTensorSyncLocal **)&_swig_go_0; 
@@ -2779,7 +2684,7 @@ void _wrap_OpTensorSyncLocal_preEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncLo
 }
 
 
-void _wrap_OpTensorSyncLocal_postEval_kompute_209ca5717ea3ce19(kp::OpTensorSyncLocal *_swig_go_0) {
+void _wrap_OpTensorSyncLocal_postEval_kompute_c87b3565665a14c1(kp::OpTensorSyncLocal *_swig_go_0) {
   kp::OpTensorSyncLocal *arg1 = (kp::OpTensorSyncLocal *) 0 ;
   
   arg1 = *(kp::OpTensorSyncLocal **)&_swig_go_0; 

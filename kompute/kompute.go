@@ -28,6 +28,9 @@ typedef struct { char *p; intgo n; } _gostring_;
 typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
+
+#cgo LDFLAGS: -L /usr/local/lib -lkompute -lvulkan
+
 typedef long long swig_type_1;
 typedef long long swig_type_2;
 typedef long long swig_type_3;
@@ -36,161 +39,164 @@ typedef long long swig_type_5;
 typedef long long swig_type_6;
 typedef long long swig_type_7;
 typedef long long swig_type_8;
-typedef _gostring_ swig_type_9;
+typedef long long swig_type_9;
 typedef _gostring_ swig_type_10;
 typedef _gostring_ swig_type_11;
 typedef _gostring_ swig_type_12;
 typedef _gostring_ swig_type_13;
-typedef _gostring_ swig_type_14;
+typedef long long swig_type_14;
 typedef _gostring_ swig_type_15;
-extern void _wrap_Swig_free_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_kompute_209ca5717ea3ce19(swig_intgo arg1);
-extern uintptr_t _wrap_new_FloatVector__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_FloatVector__SWIG_1_kompute_209ca5717ea3ce19(swig_type_1 arg1);
-extern uintptr_t _wrap_new_FloatVector__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_type_2 _wrap_FloatVector_size_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_type_3 _wrap_FloatVector_capacity_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_FloatVector_reserve_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_4 arg2);
-extern _Bool _wrap_FloatVector_isEmpty_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_FloatVector_clear_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_FloatVector_add_kompute_209ca5717ea3ce19(uintptr_t arg1, float arg2);
-extern float _wrap_FloatVector_get_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_FloatVector_set_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_intgo arg2, float arg3);
-extern void _wrap_delete_FloatVector_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_ByteVector__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_ByteVector__SWIG_1_kompute_209ca5717ea3ce19(swig_type_5 arg1);
-extern uintptr_t _wrap_new_ByteVector__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_type_6 _wrap_ByteVector_size_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_type_7 _wrap_ByteVector_capacity_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_ByteVector_reserve_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_8 arg2);
-extern _Bool _wrap_ByteVector_isEmpty_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_ByteVector_clear_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_ByteVector_add_kompute_209ca5717ea3ce19(uintptr_t arg1, char arg2);
-extern char _wrap_ByteVector_get_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_ByteVector_set_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_intgo arg2, char arg3);
-extern void _wrap_delete_ByteVector_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_voidp _wrap_shaders_glsl_opmult_comp_spv_get_kompute_209ca5717ea3ce19(void);
-extern swig_intgo _wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_209ca5717ea3ce19(void);
-extern swig_voidp _wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_209ca5717ea3ce19(void);
-extern swig_intgo _wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_209ca5717ea3ce19(void);
-extern swig_intgo _wrap_TensorTypes_eDevice_Tensor_kompute_209ca5717ea3ce19(void);
-extern swig_intgo _wrap_TensorTypes_eStaging_Tensor_kompute_209ca5717ea3ce19(void);
-extern swig_intgo _wrap_TensorTypes_eStorage_Tensor_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_Tensor__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_Tensor__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_new_Tensor__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_delete_Tensor_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Tensor_init_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_Tensor_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Tensor_data_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Tensor_size_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Tensor_shape_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern swig_intgo _wrap_Tensor_tensorType_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Tensor_isInit_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Tensor_setData_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Tensor_recordCopyFrom_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
-extern void _wrap_Tensor_recordBufferMemoryBarrier_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern uintptr_t _wrap_Tensor_constructDescriptorBufferInfo_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Tensor_mapDataFromHostMemory_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Tensor_mapDataIntoHostMemory_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_delete_OpBase_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpBase_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpBase_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpBase_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpBase_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_Sequence__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_Sequence_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Sequence_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_begin_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_end_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_eval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_evalAsync_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_evalAwait__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern _Bool _wrap_Sequence_evalAwait__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_isRecording_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_isRunning_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern _Bool _wrap_Sequence_isInit_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Sequence_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_OpTensorCreate__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpTensorCreate__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpTensorCreate_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCreate_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCreate_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCreate_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCreate_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_Manager__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_Manager__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_Manager__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_Manager_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Manager_getOrCreateManagedSequence_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_9 arg2);
-extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_10 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_11 arg2);
-extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Manager_evalOpAwait__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_12 arg2, uintptr_t arg3);
-extern void _wrap_Manager_evalOpAwait__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, swig_type_13 arg2);
-extern void _wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_Manager_buildTensor__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern uintptr_t _wrap_Manager_buildTensor__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_Algorithm__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_Algorithm__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Algorithm_init_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_delete_Algorithm_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_Algorithm_recordDispatch__SWIG_0_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_Algorithm_recordDispatch__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_Algorithm_recordDispatch__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Algorithm_recordDispatch__SWIG_3_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_3_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, swig_type_14 arg5, uintptr_t arg6);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_4_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, swig_type_15 arg5);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_5_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
-extern uintptr_t _wrap_new_OpAlgoBase__SWIG_6_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern void _wrap_delete_OpAlgoBase_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoBase_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoBase_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoBase_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoBase_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpAlgoLhsRhsOut_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoLhsRhsOut_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoLhsRhsOut_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoLhsRhsOut_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpAlgoLhsRhsOut_preEval_kompute_209ca5717ea3ce19(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_OpMult__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpMult__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
-extern uintptr_t _wrap_new_OpMult__SWIG_2_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpMult_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpMult_init_kompute_209ca5717ea3ce19(uintptr_t _swig_base);
-extern void _wrap_OpMult_record_kompute_209ca5717ea3ce19(uintptr_t _swig_base);
-extern void _wrap_OpMult_preEval_kompute_209ca5717ea3ce19(uintptr_t _swig_base);
-extern void _wrap_OpMult_postEval_kompute_209ca5717ea3ce19(uintptr_t _swig_base);
-extern uintptr_t _wrap_new_OpTensorCopy__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpTensorCopy__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpTensorCopy_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCopy_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCopy_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCopy_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorCopy_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_OpTensorSyncDevice__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpTensorSyncDevice__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpTensorSyncDevice_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncDevice_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncDevice_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncDevice_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncDevice_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern uintptr_t _wrap_new_OpTensorSyncLocal__SWIG_0_kompute_209ca5717ea3ce19(void);
-extern uintptr_t _wrap_new_OpTensorSyncLocal__SWIG_1_kompute_209ca5717ea3ce19(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_delete_OpTensorSyncLocal_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncLocal_init_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncLocal_record_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncLocal_preEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
-extern void _wrap_OpTensorSyncLocal_postEval_kompute_209ca5717ea3ce19(uintptr_t arg1);
+typedef long long swig_type_16;
+typedef _gostring_ swig_type_17;
+typedef _gostring_ swig_type_18;
+extern void _wrap_Swig_free_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_kompute_c87b3565665a14c1(swig_intgo arg1);
+extern uintptr_t _wrap_new_FloatVector__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_FloatVector__SWIG_1_kompute_c87b3565665a14c1(swig_type_1 arg1);
+extern uintptr_t _wrap_new_FloatVector__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_type_2 _wrap_FloatVector_size_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_type_3 _wrap_FloatVector_capacity_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_FloatVector_reserve_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_4 arg2);
+extern _Bool _wrap_FloatVector_isEmpty_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_FloatVector_clear_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_FloatVector_add_kompute_c87b3565665a14c1(uintptr_t arg1, float arg2);
+extern float _wrap_FloatVector_get_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_FloatVector_set_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2, float arg3);
+extern void _wrap_delete_FloatVector_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_ByteVector__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_ByteVector__SWIG_1_kompute_c87b3565665a14c1(swig_type_5 arg1);
+extern uintptr_t _wrap_new_ByteVector__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_type_6 _wrap_ByteVector_size_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_type_7 _wrap_ByteVector_capacity_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_ByteVector_reserve_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_8 arg2);
+extern _Bool _wrap_ByteVector_isEmpty_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_ByteVector_clear_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_ByteVector_add_kompute_c87b3565665a14c1(uintptr_t arg1, char arg2);
+extern char _wrap_ByteVector_get_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_ByteVector_set_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2, char arg3);
+extern void _wrap_delete_ByteVector_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_voidp _wrap_shaders_glsl_opmult_comp_spv_get_kompute_c87b3565665a14c1(void);
+extern swig_intgo _wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_c87b3565665a14c1(void);
+extern swig_voidp _wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_c87b3565665a14c1(void);
+extern swig_intgo _wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_c87b3565665a14c1(void);
+extern swig_intgo _wrap_TensorTypes_eDevice_Tensor_kompute_c87b3565665a14c1(void);
+extern swig_intgo _wrap_TensorTypes_eStaging_Tensor_kompute_c87b3565665a14c1(void);
+extern swig_intgo _wrap_TensorTypes_eStorage_Tensor_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_Tensor__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_Tensor__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_new_Tensor__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_delete_Tensor_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Tensor_init_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_Tensor_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_Tensor_data_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_intgo _wrap_Tensor_size_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_Tensor_shape_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern swig_intgo _wrap_Tensor_tensorType_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Tensor_isInit_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Tensor_setData_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Tensor_recordCopyFrom_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, _Bool arg4);
+extern void _wrap_Tensor_recordBufferMemoryBarrier_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern uintptr_t _wrap_Tensor_constructDescriptorBufferInfo_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Tensor_mapDataFromHostMemory_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Tensor_mapDataIntoHostMemory_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_delete_OpBase_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpBase_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpBase_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpBase_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpBase_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_Sequence__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_Sequence__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_delete_Sequence_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Sequence_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_begin_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_end_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_eval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_evalAsync_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_evalAwait__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_9 arg2);
+extern _Bool _wrap_Sequence_evalAwait__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_isRecording_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_isRunning_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern _Bool _wrap_Sequence_isInit_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Sequence_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_OpTensorCreate__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpTensorCreate__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpTensorCreate_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCreate_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCreate_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCreate_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCreate_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_Manager__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_Manager__SWIG_1_kompute_c87b3565665a14c1(swig_intgo arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_Manager__SWIG_2_kompute_c87b3565665a14c1(swig_intgo arg1);
+extern uintptr_t _wrap_new_Manager__SWIG_3_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, swig_intgo arg4);
+extern void _wrap_delete_Manager_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_Manager_getOrCreateManagedSequence_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_10 arg2);
+extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_11 arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_12 arg2);
+extern uintptr_t _wrap_Manager_createManagedSequence__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Manager_evalOpAwait__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_13 arg2, swig_type_14 arg3);
+extern void _wrap_Manager_evalOpAwait__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_15 arg2);
+extern void _wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, swig_type_16 arg2);
+extern void _wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_Manager_buildTensor__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern uintptr_t _wrap_Manager_buildTensor__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_Algorithm__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_Algorithm__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Algorithm_init_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_delete_Algorithm_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_Algorithm_recordDispatch__SWIG_0_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_Algorithm_recordDispatch__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern void _wrap_Algorithm_recordDispatch__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_Algorithm_recordDispatch__SWIG_3_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_3_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, swig_type_17 arg5, uintptr_t arg6);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_4_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, swig_type_18 arg5);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_5_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6);
+extern uintptr_t _wrap_new_OpAlgoBase__SWIG_6_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern void _wrap_delete_OpAlgoBase_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoBase_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoBase_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoBase_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoBase_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpAlgoLhsRhsOut_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoLhsRhsOut_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoLhsRhsOut_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoLhsRhsOut_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpAlgoLhsRhsOut_preEval_kompute_c87b3565665a14c1(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_OpMult__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpMult__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5);
+extern uintptr_t _wrap_new_OpMult__SWIG_2_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpMult_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpMult_init_kompute_c87b3565665a14c1(uintptr_t _swig_base);
+extern void _wrap_OpMult_record_kompute_c87b3565665a14c1(uintptr_t _swig_base);
+extern void _wrap_OpMult_preEval_kompute_c87b3565665a14c1(uintptr_t _swig_base);
+extern void _wrap_OpMult_postEval_kompute_c87b3565665a14c1(uintptr_t _swig_base);
+extern uintptr_t _wrap_new_OpTensorCopy__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpTensorCopy__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpTensorCopy_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCopy_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCopy_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCopy_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorCopy_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_OpTensorSyncDevice__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpTensorSyncDevice__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpTensorSyncDevice_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncDevice_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncDevice_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncDevice_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncDevice_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern uintptr_t _wrap_new_OpTensorSyncLocal__SWIG_0_kompute_c87b3565665a14c1(void);
+extern uintptr_t _wrap_new_OpTensorSyncLocal__SWIG_1_kompute_c87b3565665a14c1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern void _wrap_delete_OpTensorSyncLocal_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncLocal_init_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncLocal_record_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncLocal_preEval_kompute_c87b3565665a14c1(uintptr_t arg1);
+extern void _wrap_OpTensorSyncLocal_postEval_kompute_c87b3565665a14c1(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -216,13 +222,13 @@ type _ sync.Mutex
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_kompute_209ca5717ea3ce19(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_kompute_c87b3565665a14c1(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -237,21 +243,21 @@ func (p SwigcptrFloatVector) SwigIsFloatVector() {
 
 func NewFloatVector__SWIG_0() (_swig_ret FloatVector) {
 	var swig_r FloatVector
-	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
 func NewFloatVector__SWIG_1(arg1 int64) (_swig_ret FloatVector) {
 	var swig_r FloatVector
 	_swig_i_0 := arg1
-	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_1_kompute_209ca5717ea3ce19(C.swig_type_1(_swig_i_0))))
+	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_1_kompute_c87b3565665a14c1(C.swig_type_1(_swig_i_0))))
 	return swig_r
 }
 
 func NewFloatVector__SWIG_2(arg1 FloatVector) (_swig_ret FloatVector) {
 	var swig_r FloatVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_new_FloatVector__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -276,46 +282,46 @@ check_2:
 func (arg1 SwigcptrFloatVector) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_FloatVector_size_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_FloatVector_size_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFloatVector) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_FloatVector_capacity_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_FloatVector_capacity_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFloatVector) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_FloatVector_reserve_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
+	C._wrap_FloatVector_reserve_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
 }
 
 func (arg1 SwigcptrFloatVector) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_FloatVector_isEmpty_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_FloatVector_isEmpty_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrFloatVector) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_FloatVector_clear_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_FloatVector_clear_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrFloatVector) Add(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_FloatVector_add_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_FloatVector_add_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrFloatVector) Get(arg2 int) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_FloatVector_get_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_FloatVector_get_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -323,12 +329,12 @@ func (arg1 SwigcptrFloatVector) Set(arg2 int, arg3 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_FloatVector_set_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_FloatVector_set_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.float(_swig_i_2))
 }
 
 func DeleteFloatVector(arg1 FloatVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_FloatVector_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_FloatVector_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 type FloatVector interface {
@@ -355,21 +361,21 @@ func (p SwigcptrByteVector) SwigIsByteVector() {
 
 func NewByteVector__SWIG_0() (_swig_ret ByteVector) {
 	var swig_r ByteVector
-	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
 func NewByteVector__SWIG_1(arg1 int64) (_swig_ret ByteVector) {
 	var swig_r ByteVector
 	_swig_i_0 := arg1
-	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_1_kompute_209ca5717ea3ce19(C.swig_type_5(_swig_i_0))))
+	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_1_kompute_c87b3565665a14c1(C.swig_type_5(_swig_i_0))))
 	return swig_r
 }
 
 func NewByteVector__SWIG_2(arg1 ByteVector) (_swig_ret ByteVector) {
 	var swig_r ByteVector
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (ByteVector)(SwigcptrByteVector(C._wrap_new_ByteVector__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -394,46 +400,46 @@ check_2:
 func (arg1 SwigcptrByteVector) Size() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_ByteVector_size_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_ByteVector_size_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrByteVector) Capacity() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_ByteVector_capacity_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_ByteVector_capacity_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrByteVector) Reserve(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ByteVector_reserve_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+	C._wrap_ByteVector_reserve_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
 }
 
 func (arg1 SwigcptrByteVector) IsEmpty() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ByteVector_isEmpty_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_ByteVector_isEmpty_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrByteVector) Clear() {
 	_swig_i_0 := arg1
-	C._wrap_ByteVector_clear_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_ByteVector_clear_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrByteVector) Add(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ByteVector_add_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_ByteVector_add_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrByteVector) Get(arg2 int) (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (byte)(C._wrap_ByteVector_get_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (byte)(C._wrap_ByteVector_get_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -441,12 +447,12 @@ func (arg1 SwigcptrByteVector) Set(arg2 int, arg3 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ByteVector_set_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.char(_swig_i_2))
+	C._wrap_ByteVector_set_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.char(_swig_i_2))
 }
 
 func DeleteByteVector(arg1 ByteVector) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ByteVector_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ByteVector_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 type ByteVector interface {
@@ -466,25 +472,25 @@ const KOMPUTE_VK_API_MAJOR_VERSION int = 1
 const KOMPUTE_VK_API_MINOR_VERSION int = 1
 func GetShaders_glsl_opmult_comp_spv() (_swig_ret *byte) {
 	var swig_r *byte
-	swig_r = (*byte)(C._wrap_shaders_glsl_opmult_comp_spv_get_kompute_209ca5717ea3ce19())
+	swig_r = (*byte)(C._wrap_shaders_glsl_opmult_comp_spv_get_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 func GetShaders_glsl_opmult_comp_spv_len() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_209ca5717ea3ce19())
+	swig_r = (uint)(C._wrap_shaders_glsl_opmult_comp_spv_len_get_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 func GetShaders_glsl_logisticregression_comp_spv() (_swig_ret *byte) {
 	var swig_r *byte
-	swig_r = (*byte)(C._wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_209ca5717ea3ce19())
+	swig_r = (*byte)(C._wrap_shaders_glsl_logisticregression_comp_spv_get_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 func GetShaders_glsl_logisticregression_comp_spv_len() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_209ca5717ea3ce19())
+	swig_r = (uint)(C._wrap_shaders_glsl_logisticregression_comp_spv_len_get_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
@@ -501,28 +507,28 @@ func (p SwigcptrTensor) SwigIsTensor() {
 type KpTensorTensorTypes int
 func _swig_getTensor_TensorTypes_eDevice_Tensor() (_swig_ret KpTensorTensorTypes) {
 	var swig_r KpTensorTensorTypes
-	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eDevice_Tensor_kompute_209ca5717ea3ce19())
+	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eDevice_Tensor_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 var TensorTensorTypes_eDevice KpTensorTensorTypes = _swig_getTensor_TensorTypes_eDevice_Tensor()
 func _swig_getTensor_TensorTypes_eStaging_Tensor() (_swig_ret KpTensorTensorTypes) {
 	var swig_r KpTensorTensorTypes
-	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eStaging_Tensor_kompute_209ca5717ea3ce19())
+	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eStaging_Tensor_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 var TensorTensorTypes_eStaging KpTensorTensorTypes = _swig_getTensor_TensorTypes_eStaging_Tensor()
 func _swig_getTensor_TensorTypes_eStorage_Tensor() (_swig_ret KpTensorTensorTypes) {
 	var swig_r KpTensorTensorTypes
-	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eStorage_Tensor_kompute_209ca5717ea3ce19())
+	swig_r = (KpTensorTensorTypes)(C._wrap_TensorTypes_eStorage_Tensor_kompute_c87b3565665a14c1())
 	return swig_r
 }
 
 var TensorTensorTypes_eStorage KpTensorTensorTypes = _swig_getTensor_TensorTypes_eStorage_Tensor()
 func NewTensor__SWIG_0() (_swig_ret Tensor) {
 	var swig_r Tensor
-	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -530,14 +536,14 @@ func NewTensor__SWIG_1(arg1 FloatVector, arg2 KpTensorTensorTypes) (_swig_ret Te
 	var swig_r Tensor
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2
-	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func NewTensor__SWIG_2(arg1 FloatVector) (_swig_ret Tensor) {
 	var swig_r Tensor
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (Tensor)(SwigcptrTensor(C._wrap_new_Tensor__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -557,60 +563,60 @@ func NewTensor(a ...interface{}) Tensor {
 
 func DeleteTensor(arg1 Tensor) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Tensor_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Tensor_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTensor) Init(arg2 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg3 Std_shared_ptr_Sl_vk_Device_Sg_) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Tensor_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_Tensor_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func (arg1 SwigcptrTensor) FreeMemoryDestroyGPUResources() {
 	_swig_i_0 := arg1
-	C._wrap_Tensor_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Tensor_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTensor) Data() (_swig_ret FloatVector) {
 	var swig_r FloatVector
 	_swig_i_0 := arg1
-	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_Tensor_data_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (FloatVector)(SwigcptrFloatVector(C._wrap_Tensor_data_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
-func (arg1 SwigcptrTensor) Size() (_swig_ret Uint32_t) {
-	var swig_r Uint32_t
+func (arg1 SwigcptrTensor) Size() (_swig_ret uint) {
+	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (Uint32_t)(SwigcptrUint32_t(C._wrap_Tensor_size_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (uint)(C._wrap_Tensor_size_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrTensor) Shape() (_swig_ret Std_array_Sl_uint32_t_Sc_1_Sg_) {
-	var swig_r Std_array_Sl_uint32_t_Sc_1_Sg_
+func (arg1 SwigcptrTensor) Shape() (_swig_ret Std_array_Sl_unsigned_SS_int_Sc_1_Sg_) {
+	var swig_r Std_array_Sl_unsigned_SS_int_Sc_1_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_array_Sl_uint32_t_Sc_1_Sg_)(SwigcptrStd_array_Sl_uint32_t_Sc_1_Sg_(C._wrap_Tensor_shape_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_array_Sl_unsigned_SS_int_Sc_1_Sg_)(SwigcptrStd_array_Sl_unsigned_SS_int_Sc_1_Sg_(C._wrap_Tensor_shape_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTensor) TensorType() (_swig_ret KpTensorTensorTypes) {
 	var swig_r KpTensorTensorTypes
 	_swig_i_0 := arg1
-	swig_r = (KpTensorTensorTypes)(C._wrap_Tensor_tensorType_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (KpTensorTensorTypes)(C._wrap_Tensor_tensorType_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTensor) IsInit() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Tensor_isInit_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Tensor_isInit_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrTensor) SetData(arg2 FloatVector) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Tensor_setData_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Tensor_setData_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrTensor) RecordCopyFrom(arg2 Std_shared_ptr_Sl_vk_CommandBuffer_Sg_, arg3 Std_shared_ptr_Sl_kp_Tensor_Sg_, arg4 bool) {
@@ -618,7 +624,7 @@ func (arg1 SwigcptrTensor) RecordCopyFrom(arg2 Std_shared_ptr_Sl_vk_CommandBuffe
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4
-	C._wrap_Tensor_recordCopyFrom_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3))
+	C._wrap_Tensor_recordCopyFrom_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C._Bool(_swig_i_3))
 }
 
 func (arg1 SwigcptrTensor) RecordBufferMemoryBarrier(arg2 Std_shared_ptr_Sl_vk_CommandBuffer_Sg_, arg3 Vk_AccessFlagBits, arg4 Vk_AccessFlagBits, arg5 Vk_PipelineStageFlagBits, arg6 Vk_PipelineStageFlagBits) {
@@ -628,24 +634,24 @@ func (arg1 SwigcptrTensor) RecordBufferMemoryBarrier(arg2 Std_shared_ptr_Sl_vk_C
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	C._wrap_Tensor_recordBufferMemoryBarrier_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))
+	C._wrap_Tensor_recordBufferMemoryBarrier_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))
 }
 
 func (arg1 SwigcptrTensor) ConstructDescriptorBufferInfo() (_swig_ret Vk_DescriptorBufferInfo) {
 	var swig_r Vk_DescriptorBufferInfo
 	_swig_i_0 := arg1
-	swig_r = (Vk_DescriptorBufferInfo)(SwigcptrVk_DescriptorBufferInfo(C._wrap_Tensor_constructDescriptorBufferInfo_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (Vk_DescriptorBufferInfo)(SwigcptrVk_DescriptorBufferInfo(C._wrap_Tensor_constructDescriptorBufferInfo_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrTensor) MapDataFromHostMemory() {
 	_swig_i_0 := arg1
-	C._wrap_Tensor_mapDataFromHostMemory_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Tensor_mapDataFromHostMemory_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrTensor) MapDataIntoHostMemory() {
 	_swig_i_0 := arg1
-	C._wrap_Tensor_mapDataIntoHostMemory_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Tensor_mapDataIntoHostMemory_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 type Tensor interface {
@@ -654,8 +660,8 @@ type Tensor interface {
 	Init(arg2 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg3 Std_shared_ptr_Sl_vk_Device_Sg_)
 	FreeMemoryDestroyGPUResources()
 	Data() (_swig_ret FloatVector)
-	Size() (_swig_ret Uint32_t)
-	Shape() (_swig_ret Std_array_Sl_uint32_t_Sc_1_Sg_)
+	Size() (_swig_ret uint)
+	Shape() (_swig_ret Std_array_Sl_unsigned_SS_int_Sc_1_Sg_)
 	TensorType() (_swig_ret KpTensorTensorTypes)
 	IsInit() (_swig_ret bool)
 	SetData(arg2 FloatVector)
@@ -677,27 +683,27 @@ func (p SwigcptrOpBase) SwigIsOpBase() {
 
 func DeleteOpBase(arg1 OpBase) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpBase_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpBase_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpBase) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpBase_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpBase_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpBase) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpBase_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpBase_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpBase) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpBase_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpBase_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpBase) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpBase_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpBase_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 type OpBase interface {
@@ -720,17 +726,17 @@ func (p SwigcptrSequence) SwigIsSequence() {
 
 func NewSequence__SWIG_0() (_swig_ret Sequence) {
 	var swig_r Sequence
-	swig_r = (Sequence)(SwigcptrSequence(C._wrap_new_Sequence__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (Sequence)(SwigcptrSequence(C._wrap_new_Sequence__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
-func NewSequence__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 Std_shared_ptr_Sl_vk_Device_Sg_, arg3 Std_shared_ptr_Sl_vk_Queue_Sg_, arg4 Uint32_t) (_swig_ret Sequence) {
+func NewSequence__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 Std_shared_ptr_Sl_vk_Device_Sg_, arg3 Std_shared_ptr_Sl_vk_Queue_Sg_, arg4 uint) (_swig_ret Sequence) {
 	var swig_r Sequence
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Sequence)(SwigcptrSequence(C._wrap_new_Sequence__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	_swig_i_3 := arg4
+	swig_r = (Sequence)(SwigcptrSequence(C._wrap_new_Sequence__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	return swig_r
 }
 
@@ -740,61 +746,61 @@ func NewSequence(a ...interface{}) Sequence {
 		return NewSequence__SWIG_0()
 	}
 	if argc == 4 {
-		return NewSequence__SWIG_1(a[0].(Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_), a[1].(Std_shared_ptr_Sl_vk_Device_Sg_), a[2].(Std_shared_ptr_Sl_vk_Queue_Sg_), a[3].(Uint32_t))
+		return NewSequence__SWIG_1(a[0].(Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_), a[1].(Std_shared_ptr_Sl_vk_Device_Sg_), a[2].(Std_shared_ptr_Sl_vk_Queue_Sg_), a[3].(uint))
 	}
 	panic("No match for overloaded function call")
 }
 
 func DeleteSequence(arg1 Sequence) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Sequence_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Sequence_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSequence) Init() {
 	_swig_i_0 := arg1
-	C._wrap_Sequence_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Sequence_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSequence) Begin() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_begin_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_begin_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) End() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_end_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_end_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) Eval() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_eval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_eval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) EvalAsync() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_evalAsync_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_evalAsync_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrSequence) EvalAwait__SWIG_0(arg2 Uint64_t) (_swig_ret bool) {
+func (arg1 SwigcptrSequence) EvalAwait__SWIG_0(arg2 uint64) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (bool)(C._wrap_Sequence_evalAwait__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_Sequence_evalAwait__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) EvalAwait__SWIG_1() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_evalAwait__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_evalAwait__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -804,7 +810,7 @@ func (p SwigcptrSequence) EvalAwait(a ...interface{}) bool {
 		return p.EvalAwait__SWIG_1()
 	}
 	if argc == 1 {
-		return p.EvalAwait__SWIG_0(a[0].(Uint64_t))
+		return p.EvalAwait__SWIG_0(a[0].(uint64))
 	}
 	panic("No match for overloaded function call")
 }
@@ -812,27 +818,27 @@ func (p SwigcptrSequence) EvalAwait(a ...interface{}) bool {
 func (arg1 SwigcptrSequence) IsRecording() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_isRecording_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_isRecording_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) IsRunning() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_isRunning_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_isRunning_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) IsInit() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Sequence_isInit_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Sequence_isInit_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSequence) FreeMemoryDestroyGPUResources() {
 	_swig_i_0 := arg1
-	C._wrap_Sequence_freeMemoryDestroyGPUResources_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Sequence_freeMemoryDestroyGPUResources_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 type Sequence interface {
@@ -861,7 +867,7 @@ func (p SwigcptrOpTensorCreate) SwigIsOpTensorCreate() {
 
 func NewOpTensorCreate__SWIG_0() (_swig_ret OpTensorCreate) {
 	var swig_r OpTensorCreate
-	swig_r = (OpTensorCreate)(SwigcptrOpTensorCreate(C._wrap_new_OpTensorCreate__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpTensorCreate)(SwigcptrOpTensorCreate(C._wrap_new_OpTensorCreate__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -871,7 +877,7 @@ func NewOpTensorCreate__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpTensorCreate)(SwigcptrOpTensorCreate(C._wrap_new_OpTensorCreate__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpTensorCreate)(SwigcptrOpTensorCreate(C._wrap_new_OpTensorCreate__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -888,27 +894,27 @@ func NewOpTensorCreate(a ...interface{}) OpTensorCreate {
 
 func DeleteOpTensorCreate(arg1 OpTensorCreate) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpTensorCreate_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpTensorCreate_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCreate) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCreate_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCreate_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCreate) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCreate_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCreate_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCreate) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCreate_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCreate_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCreate) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCreate_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCreate_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrOpTensorCreate) SwigIsOpBase() {
@@ -941,32 +947,32 @@ func (p SwigcptrManager) SwigIsManager() {
 
 func NewManager__SWIG_0() (_swig_ret Manager) {
 	var swig_r Manager
-	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
-func NewManager__SWIG_1(arg1 Uint32_t, arg2 Std_vector_Sl_uint32_t_Sg_) (_swig_ret Manager) {
+func NewManager__SWIG_1(arg1 uint, arg2 Std_vector_Sl_unsigned_SS_int_Sg_) (_swig_ret Manager) {
 	var swig_r Manager
-	_swig_i_0 := arg1.Swigcptr()
+	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_1_kompute_c87b3565665a14c1(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
-func NewManager__SWIG_2(arg1 Uint32_t) (_swig_ret Manager) {
+func NewManager__SWIG_2(arg1 uint) (_swig_ret Manager) {
 	var swig_r Manager
-	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	_swig_i_0 := arg1
+	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_2_kompute_c87b3565665a14c1(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
-func NewManager__SWIG_3(arg1 Std_shared_ptr_Sl_vk_Instance_Sg_, arg2 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg3 Std_shared_ptr_Sl_vk_Device_Sg_, arg4 Uint32_t) (_swig_ret Manager) {
+func NewManager__SWIG_3(arg1 Std_shared_ptr_Sl_vk_Instance_Sg_, arg2 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg3 Std_shared_ptr_Sl_vk_Device_Sg_, arg4 uint) (_swig_ret Manager) {
 	var swig_r Manager
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_3_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	_swig_i_3 := arg4
+	swig_r = (Manager)(SwigcptrManager(C._wrap_new_Manager__SWIG_3_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	return swig_r
 }
 
@@ -976,39 +982,39 @@ func NewManager(a ...interface{}) Manager {
 		return NewManager__SWIG_0()
 	}
 	if argc == 1 {
-		return NewManager__SWIG_2(a[0].(Uint32_t))
+		return NewManager__SWIG_2(a[0].(uint))
 	}
 	if argc == 2 {
-		return NewManager__SWIG_1(a[0].(Uint32_t), a[1].(Std_vector_Sl_uint32_t_Sg_))
+		return NewManager__SWIG_1(a[0].(uint), a[1].(Std_vector_Sl_unsigned_SS_int_Sg_))
 	}
 	if argc == 4 {
-		return NewManager__SWIG_3(a[0].(Std_shared_ptr_Sl_vk_Instance_Sg_), a[1].(Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_), a[2].(Std_shared_ptr_Sl_vk_Device_Sg_), a[3].(Uint32_t))
+		return NewManager__SWIG_3(a[0].(Std_shared_ptr_Sl_vk_Instance_Sg_), a[1].(Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_), a[2].(Std_shared_ptr_Sl_vk_Device_Sg_), a[3].(uint))
 	}
 	panic("No match for overloaded function call")
 }
 
 func DeleteManager(arg1 Manager) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Manager_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Manager_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrManager) GetOrCreateManagedSequence(arg2 string) (_swig_ret Std_shared_ptr_Sl_kp_Sequence_Sg_) {
 	var swig_r Std_shared_ptr_Sl_kp_Sequence_Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_getOrCreateManagedSequence_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_getOrCreateManagedSequence_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
 	return swig_r
 }
 
-func (arg1 SwigcptrManager) CreateManagedSequence__SWIG_0(arg2 string, arg3 Uint32_t) (_swig_ret Std_shared_ptr_Sl_kp_Sequence_Sg_) {
+func (arg1 SwigcptrManager) CreateManagedSequence__SWIG_0(arg2 string, arg3 uint) (_swig_ret Std_shared_ptr_Sl_kp_Sequence_Sg_) {
 	var swig_r Std_shared_ptr_Sl_kp_Sequence_Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	_swig_i_2 := arg3.Swigcptr()
-	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))))
+	_swig_i_2 := arg3
+	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1019,7 +1025,7 @@ func (arg1 SwigcptrManager) CreateManagedSequence__SWIG_1(arg2 string) (_swig_re
 	var swig_r Std_shared_ptr_Sl_kp_Sequence_Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1029,7 +1035,7 @@ func (arg1 SwigcptrManager) CreateManagedSequence__SWIG_1(arg2 string) (_swig_re
 func (arg1 SwigcptrManager) CreateManagedSequence__SWIG_2() (_swig_ret Std_shared_ptr_Sl_kp_Sequence_Sg_) {
 	var swig_r Std_shared_ptr_Sl_kp_Sequence_Sg_
 	_swig_i_0 := arg1
-	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))))
+	swig_r = (Std_shared_ptr_Sl_kp_Sequence_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Sequence_Sg_(C._wrap_Manager_createManagedSequence__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1042,16 +1048,16 @@ func (p SwigcptrManager) CreateManagedSequence(a ...interface{}) Std_shared_ptr_
 		return p.CreateManagedSequence__SWIG_1(a[0].(string))
 	}
 	if argc == 2 {
-		return p.CreateManagedSequence__SWIG_0(a[0].(string), a[1].(Uint32_t))
+		return p.CreateManagedSequence__SWIG_0(a[0].(string), a[1].(uint))
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrManager) EvalOpAwait__SWIG_0(arg2 string, arg3 Uint64_t) {
+func (arg1 SwigcptrManager) EvalOpAwait__SWIG_0(arg2 string, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Manager_evalOpAwait__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), *(*C.swig_type_12)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	_swig_i_2 := arg3
+	C._wrap_Manager_evalOpAwait__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_1)), C.swig_type_14(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1060,7 +1066,7 @@ func (arg1 SwigcptrManager) EvalOpAwait__SWIG_0(arg2 string, arg3 Uint64_t) {
 func (arg1 SwigcptrManager) EvalOpAwait__SWIG_1(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Manager_evalOpAwait__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), *(*C.swig_type_13)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Manager_evalOpAwait__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1073,21 +1079,21 @@ func (p SwigcptrManager) EvalOpAwait(a ...interface{}) {
 		return
 	}
 	if argc == 2 {
-		p.EvalOpAwait__SWIG_0(a[0].(string), a[1].(Uint64_t))
+		p.EvalOpAwait__SWIG_0(a[0].(string), a[1].(uint64))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrManager) EvalOpAwaitDefault__SWIG_0(arg2 Uint64_t) {
+func (arg1 SwigcptrManager) EvalOpAwaitDefault__SWIG_0(arg2 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_Manager_evalOpAwaitDefault__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_type_16(_swig_i_1))
 }
 
 func (arg1 SwigcptrManager) EvalOpAwaitDefault__SWIG_1() {
 	_swig_i_0 := arg1
-	C._wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Manager_evalOpAwaitDefault__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrManager) EvalOpAwaitDefault(a ...interface{}) {
@@ -1097,7 +1103,7 @@ func (p SwigcptrManager) EvalOpAwaitDefault(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.EvalOpAwaitDefault__SWIG_0(a[0].(Uint64_t))
+		p.EvalOpAwaitDefault__SWIG_0(a[0].(uint64))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -1108,7 +1114,7 @@ func (arg1 SwigcptrManager) BuildTensor__SWIG_0(arg2 FloatVector, arg3 KpTensorT
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3
-	swig_r = (Std_shared_ptr_Sl_kp_Tensor_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_(C._wrap_Manager_buildTensor__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (Std_shared_ptr_Sl_kp_Tensor_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_(C._wrap_Manager_buildTensor__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -1116,7 +1122,7 @@ func (arg1 SwigcptrManager) BuildTensor__SWIG_1(arg2 FloatVector) (_swig_ret Std
 	var swig_r Std_shared_ptr_Sl_kp_Tensor_Sg_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Std_shared_ptr_Sl_kp_Tensor_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_(C._wrap_Manager_buildTensor__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Std_shared_ptr_Sl_kp_Tensor_Sg_)(SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_(C._wrap_Manager_buildTensor__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1152,7 +1158,7 @@ func (p SwigcptrAlgorithm) SwigIsAlgorithm() {
 
 func NewAlgorithm__SWIG_0() (_swig_ret Algorithm) {
 	var swig_r Algorithm
-	swig_r = (Algorithm)(SwigcptrAlgorithm(C._wrap_new_Algorithm__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (Algorithm)(SwigcptrAlgorithm(C._wrap_new_Algorithm__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1160,7 +1166,7 @@ func NewAlgorithm__SWIG_1(arg1 Std_shared_ptr_Sl_vk_Device_Sg_, arg2 Std_shared_
 	var swig_r Algorithm
 	_swig_i_0 := arg1.Swigcptr()
 	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (Algorithm)(SwigcptrAlgorithm(C._wrap_new_Algorithm__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (Algorithm)(SwigcptrAlgorithm(C._wrap_new_Algorithm__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1179,38 +1185,38 @@ func (arg1 SwigcptrAlgorithm) Init(arg2 ByteVector, arg3 Std_vector_Sl_std_share
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Algorithm_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_Algorithm_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func DeleteAlgorithm(arg1 Algorithm) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Algorithm_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Algorithm_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_0(arg2 Uint32_t, arg3 Uint32_t, arg4 Uint32_t) {
+func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_0(arg2 uint, arg3 uint, arg4 uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	_swig_i_2 := arg3.Swigcptr()
-	_swig_i_3 := arg4.Swigcptr()
-	C._wrap_Algorithm_recordDispatch__SWIG_0_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_Algorithm_recordDispatch__SWIG_0_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
-func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_1(arg2 Uint32_t, arg3 Uint32_t) {
+func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_1(arg2 uint, arg3 uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Algorithm_recordDispatch__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_Algorithm_recordDispatch__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
-func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_2(arg2 Uint32_t) {
+func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_2(arg2 uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Algorithm_recordDispatch__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_Algorithm_recordDispatch__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrAlgorithm) RecordDispatch__SWIG_3() {
 	_swig_i_0 := arg1
-	C._wrap_Algorithm_recordDispatch__SWIG_3_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_Algorithm_recordDispatch__SWIG_3_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrAlgorithm) RecordDispatch(a ...interface{}) {
@@ -1220,15 +1226,15 @@ func (p SwigcptrAlgorithm) RecordDispatch(a ...interface{}) {
 		return
 	}
 	if argc == 1 {
-		p.RecordDispatch__SWIG_2(a[0].(Uint32_t))
+		p.RecordDispatch__SWIG_2(a[0].(uint))
 		return
 	}
 	if argc == 2 {
-		p.RecordDispatch__SWIG_1(a[0].(Uint32_t), a[1].(Uint32_t))
+		p.RecordDispatch__SWIG_1(a[0].(uint), a[1].(uint))
 		return
 	}
 	if argc == 3 {
-		p.RecordDispatch__SWIG_0(a[0].(Uint32_t), a[1].(Uint32_t), a[2].(Uint32_t))
+		p.RecordDispatch__SWIG_0(a[0].(uint), a[1].(uint), a[2].(uint))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -1252,7 +1258,7 @@ func (p SwigcptrOpAlgoBase) SwigIsOpAlgoBase() {
 
 func NewOpAlgoBase__SWIG_0() (_swig_ret OpAlgoBase) {
 	var swig_r OpAlgoBase
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1263,7 +1269,7 @@ func NewOpAlgoBase__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -1273,7 +1279,7 @@ func NewOpAlgoBase__SWIG_2(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1285,7 +1291,7 @@ func NewOpAlgoBase__SWIG_3(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_3_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_3_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), *(*C.swig_type_17)(unsafe.Pointer(&_swig_i_4)), C.uintptr_t(_swig_i_5))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg5
 	}
@@ -1299,7 +1305,7 @@ func NewOpAlgoBase__SWIG_4(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_4_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_4)))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_4_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), *(*C.swig_type_18)(unsafe.Pointer(&_swig_i_4)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg5
 	}
@@ -1314,7 +1320,7 @@ func NewOpAlgoBase__SWIG_5(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
 	_swig_i_5 := arg6.Swigcptr()
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_5_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_5_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4), C.uintptr_t(_swig_i_5))))
 	return swig_r
 }
 
@@ -1325,7 +1331,7 @@ func NewOpAlgoBase__SWIG_6(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 St
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_6_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (OpAlgoBase)(SwigcptrOpAlgoBase(C._wrap_new_OpAlgoBase__SWIG_6_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -1369,27 +1375,27 @@ check_6:
 
 func DeleteOpAlgoBase(arg1 OpAlgoBase) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpAlgoBase_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpAlgoBase_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoBase) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoBase_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoBase_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoBase) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoBase_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoBase_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoBase) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoBase_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoBase_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoBase) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoBase_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoBase_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrOpAlgoBase) SwigIsOpBase() {
@@ -1421,7 +1427,7 @@ func (p SwigcptrOpAlgoLhsRhsOut) SwigIsOpAlgoLhsRhsOut() {
 
 func NewOpAlgoLhsRhsOut__SWIG_0() (_swig_ret OpAlgoLhsRhsOut) {
 	var swig_r OpAlgoLhsRhsOut
-	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1432,7 +1438,7 @@ func NewOpAlgoLhsRhsOut__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, ar
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -1442,7 +1448,7 @@ func NewOpAlgoLhsRhsOut__SWIG_2(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, ar
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpAlgoLhsRhsOut)(SwigcptrOpAlgoLhsRhsOut(C._wrap_new_OpAlgoLhsRhsOut__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1462,26 +1468,26 @@ func NewOpAlgoLhsRhsOut(a ...interface{}) OpAlgoLhsRhsOut {
 
 func DeleteOpAlgoLhsRhsOut(arg1 OpAlgoLhsRhsOut) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpAlgoLhsRhsOut_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpAlgoLhsRhsOut_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoLhsRhsOut) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoLhsRhsOut_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoLhsRhsOut_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoLhsRhsOut) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoLhsRhsOut_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoLhsRhsOut_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpAlgoLhsRhsOut) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpAlgoLhsRhsOut_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpAlgoLhsRhsOut_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrOpAlgoLhsRhsOut) PreEval() {
-	C._wrap_OpAlgoLhsRhsOut_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_base))
+	C._wrap_OpAlgoLhsRhsOut_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrOpAlgoLhsRhsOut) SwigIsOpAlgoBase() {
@@ -1522,7 +1528,7 @@ func (p SwigcptrOpMult) SwigIsOpMult() {
 
 func NewOpMult__SWIG_0() (_swig_ret OpMult) {
 	var swig_r OpMult
-	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1533,7 +1539,7 @@ func NewOpMult__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 Std_sh
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
 	_swig_i_4 := arg5.Swigcptr()
-	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
@@ -1543,7 +1549,7 @@ func NewOpMult__SWIG_2(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 Std_sh
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_2_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpMult)(SwigcptrOpMult(C._wrap_new_OpMult__SWIG_2_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1563,23 +1569,23 @@ func NewOpMult(a ...interface{}) OpMult {
 
 func DeleteOpMult(arg1 OpMult) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpMult_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpMult_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrOpMult) Init() {
-	C._wrap_OpMult_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_base))
+	C._wrap_OpMult_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrOpMult) Record() {
-	C._wrap_OpMult_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_base))
+	C._wrap_OpMult_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrOpMult) PreEval() {
-	C._wrap_OpMult_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_base))
+	C._wrap_OpMult_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrOpMult) PostEval() {
-	C._wrap_OpMult_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_base))
+	C._wrap_OpMult_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrOpMult) SwigIsOpAlgoBase() {
@@ -1620,7 +1626,7 @@ func (p SwigcptrOpTensorCopy) SwigIsOpTensorCopy() {
 
 func NewOpTensorCopy__SWIG_0() (_swig_ret OpTensorCopy) {
 	var swig_r OpTensorCopy
-	swig_r = (OpTensorCopy)(SwigcptrOpTensorCopy(C._wrap_new_OpTensorCopy__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpTensorCopy)(SwigcptrOpTensorCopy(C._wrap_new_OpTensorCopy__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1630,7 +1636,7 @@ func NewOpTensorCopy__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, arg2 
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpTensorCopy)(SwigcptrOpTensorCopy(C._wrap_new_OpTensorCopy__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpTensorCopy)(SwigcptrOpTensorCopy(C._wrap_new_OpTensorCopy__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1647,27 +1653,27 @@ func NewOpTensorCopy(a ...interface{}) OpTensorCopy {
 
 func DeleteOpTensorCopy(arg1 OpTensorCopy) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpTensorCopy_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpTensorCopy_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCopy) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCopy_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCopy_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCopy) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCopy_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCopy_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCopy) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCopy_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCopy_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorCopy) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorCopy_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorCopy_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrOpTensorCopy) SwigIsOpBase() {
@@ -1699,7 +1705,7 @@ func (p SwigcptrOpTensorSyncDevice) SwigIsOpTensorSyncDevice() {
 
 func NewOpTensorSyncDevice__SWIG_0() (_swig_ret OpTensorSyncDevice) {
 	var swig_r OpTensorSyncDevice
-	swig_r = (OpTensorSyncDevice)(SwigcptrOpTensorSyncDevice(C._wrap_new_OpTensorSyncDevice__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpTensorSyncDevice)(SwigcptrOpTensorSyncDevice(C._wrap_new_OpTensorSyncDevice__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1709,7 +1715,7 @@ func NewOpTensorSyncDevice__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_,
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpTensorSyncDevice)(SwigcptrOpTensorSyncDevice(C._wrap_new_OpTensorSyncDevice__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpTensorSyncDevice)(SwigcptrOpTensorSyncDevice(C._wrap_new_OpTensorSyncDevice__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1726,27 +1732,27 @@ func NewOpTensorSyncDevice(a ...interface{}) OpTensorSyncDevice {
 
 func DeleteOpTensorSyncDevice(arg1 OpTensorSyncDevice) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpTensorSyncDevice_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpTensorSyncDevice_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncDevice) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncDevice_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncDevice_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncDevice) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncDevice_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncDevice_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncDevice) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncDevice_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncDevice_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncDevice) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncDevice_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncDevice_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrOpTensorSyncDevice) SwigIsOpBase() {
@@ -1778,7 +1784,7 @@ func (p SwigcptrOpTensorSyncLocal) SwigIsOpTensorSyncLocal() {
 
 func NewOpTensorSyncLocal__SWIG_0() (_swig_ret OpTensorSyncLocal) {
 	var swig_r OpTensorSyncLocal
-	swig_r = (OpTensorSyncLocal)(SwigcptrOpTensorSyncLocal(C._wrap_new_OpTensorSyncLocal__SWIG_0_kompute_209ca5717ea3ce19()))
+	swig_r = (OpTensorSyncLocal)(SwigcptrOpTensorSyncLocal(C._wrap_new_OpTensorSyncLocal__SWIG_0_kompute_c87b3565665a14c1()))
 	return swig_r
 }
 
@@ -1788,7 +1794,7 @@ func NewOpTensorSyncLocal__SWIG_1(arg1 Std_shared_ptr_Sl_vk_PhysicalDevice_Sg_, 
 	_swig_i_1 := arg2.Swigcptr()
 	_swig_i_2 := arg3.Swigcptr()
 	_swig_i_3 := arg4.Swigcptr()
-	swig_r = (OpTensorSyncLocal)(SwigcptrOpTensorSyncLocal(C._wrap_new_OpTensorSyncLocal__SWIG_1_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (OpTensorSyncLocal)(SwigcptrOpTensorSyncLocal(C._wrap_new_OpTensorSyncLocal__SWIG_1_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -1805,27 +1811,27 @@ func NewOpTensorSyncLocal(a ...interface{}) OpTensorSyncLocal {
 
 func DeleteOpTensorSyncLocal(arg1 OpTensorSyncLocal) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_OpTensorSyncLocal_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_OpTensorSyncLocal_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncLocal) Init() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncLocal_init_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncLocal_init_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncLocal) Record() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncLocal_record_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncLocal_record_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncLocal) PreEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncLocal_preEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncLocal_preEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrOpTensorSyncLocal) PostEval() {
 	_swig_i_0 := arg1
-	C._wrap_OpTensorSyncLocal_postEval_kompute_209ca5717ea3ce19(C.uintptr_t(_swig_i_0))
+	C._wrap_OpTensorSyncLocal_postEval_kompute_c87b3565665a14c1(C.uintptr_t(_swig_i_0))
 }
 
 func (p SwigcptrOpTensorSyncLocal) SwigIsOpBase() {
@@ -1871,27 +1877,11 @@ func (p SwigcptrStd_vector_Sl_std_shared_ptr_Sl_kp_Tensor_Sg__Sg_) Swigcptr() ui
 	return uintptr(p)
 }
 
-type SwigcptrUint32_t uintptr
-type Uint32_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint32_t) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
 type SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_ uintptr
 type Std_shared_ptr_Sl_kp_Tensor_Sg_ interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrStd_shared_ptr_Sl_kp_Tensor_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrUint64_t uintptr
-type Uint64_t interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint64_t) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -1927,19 +1917,11 @@ func (p SwigcptrStd_shared_ptr_Sl_vk_Instance_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
-type SwigcptrStd_array_Sl_uint32_t_Sc_1_Sg_ uintptr
-type Std_array_Sl_uint32_t_Sc_1_Sg_ interface {
+type SwigcptrStd_array_Sl_unsigned_SS_int_Sc_1_Sg_ uintptr
+type Std_array_Sl_unsigned_SS_int_Sc_1_Sg_ interface {
 	Swigcptr() uintptr;
 }
-func (p SwigcptrStd_array_Sl_uint32_t_Sc_1_Sg_) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrStd_vector_Sl_uint32_t_Sg_ uintptr
-type Std_vector_Sl_uint32_t_Sg_ interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrStd_vector_Sl_uint32_t_Sg_) Swigcptr() uintptr {
+func (p SwigcptrStd_array_Sl_unsigned_SS_int_Sc_1_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 
@@ -1972,6 +1954,14 @@ type Std_shared_ptr_Sl_vk_CommandBuffer_Sg_ interface {
 	Swigcptr() uintptr;
 }
 func (p SwigcptrStd_shared_ptr_Sl_vk_CommandBuffer_Sg_) Swigcptr() uintptr {
+	return uintptr(p)
+}
+
+type SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_ uintptr
+type Std_vector_Sl_unsigned_SS_int_Sg_ interface {
+	Swigcptr() uintptr;
+}
+func (p SwigcptrStd_vector_Sl_unsigned_SS_int_Sg_) Swigcptr() uintptr {
 	return uintptr(p)
 }
 

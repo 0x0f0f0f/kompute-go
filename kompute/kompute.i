@@ -6,6 +6,13 @@
 %include <typemaps.i>
 %include "std_string.i"
 %include "std_vector.i"
+%include "std_vector.i"
+%include "stdint.i"
+
+%insert(cgo_comment_typedefs) %{
+#cgo LDFLAGS: -L /usr/local/lib -lkompute -lvulkan
+%}
+
 
 // This will create 2 wrapped types in Go called
 // "StringVector" and "ByteVector" for their respective
